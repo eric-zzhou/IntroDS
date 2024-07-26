@@ -1,0 +1,135 @@
+---
+title: "SVM on Forest Fires"
+output: html_notebook
+---
+Used the resources provided and my own knowledge:
+<br>
+https://www.svm-tutorial.com/2014/10/support-vector-regression-r/
+
+## Start
+### Loading Libraries and Data
+```{r}
+# load packages
+suppressWarnings(library(tidyverse)) #for ggplot and dplyr
+library(corrplot) #for correlation plots
+library(rattle)
+library(caTools)
+library(e1071)
+```
+
+```{r}
+setwd("C:/Users/ezhou/OneDrive - Eastside Preparatory School/Documents/Eric/2022 - 2023/1 Fall/A Data Science/Forest Fires")
+forestRaw <- read.csv("forestfires.csv")
+```
+
+
+### Data Preprocessing
+```{r}
+# summary(forestRaw)
+
+forestNum <- forestRaw %>% select(-month, -day)
+corrs <- cor(forestNum)
+corrplot(corrs, order = 'hclust', addrect = 2)
+
+# RMSE function
+myRMSE <- function(pred, obs) {
+  return(sqrt(mean((pred - obs) ^ 2, na.rm = TRUE)))
+}
+```
+
+```{r}
+forestNum <- forestNum %>% mutate(logArea = log(area+1))
+forestNum <- forestNum %>% select(-area)
+# summary(forestNum)
+```
+
+## Support Vector Regression
+The package name "e1071" is the code of the statistics department at the Vienna University of Technology. Based on my understanding, SVR tries to get the best fit line in multidimension and can be of many different forms, determined by the kernel type. In regression, this line is used to predict values while in classification, lines are draw to separate different categories as well as possible.
+
+### Splitting Data
+```{r}
+set.seed(49301) # keeping the same seed as the other file
+ind <- sample.split(Y=forestNum, SplitRatio=0.8)
+trainData <- forestNum[ind,]
+testData <- forestNum[-ind,]
+```
+
+### Building model
+```{r}
+start <- Sys.time() 
+model <- svm(logArea ~ ., trainData)
+end <- Sys.time()
+(time <- end - start)
+```
+Training is super fast, only took ~0.095 seconds to run
+
+### Evaluating Model
+```{r}
+pred_y = predict(model, testData)
+myRMSE(pred_y, testData$logArea)
+```
+Starting RMSE is not bad but not good either.
+
+### Tuning time :)
+```{r}
+start <- Sys.time() 
+# perform a grid search
+tuneResult <- tune(svm, logArea ~ .,  data = trainData, ranges = list(epsilon = seq(0,1,0.1), cost = 2^(2:9)))
+print(tuneResult)
+# Draw the tuning graph
+plot(tuneResult)
+
+tunedModel <- tuneResult$best.model
+end <- Sys.time()
+(time <- end - start)
+```
+Pretty fast, took around ~50 seconds to run. RMSE is not very good though. 
+
+```{r}
+pred_y2 = predict(tunedModel, testData)
+myRMSE(pred_y2, testData$logArea)
+```
+
+```{r}
+start <- Sys.time() 
+# perform a grid search
+tuneResult2 <- tune(svm, logArea ~ .,  data = trainData, ranges = list(epsilon = seq(0.6,0.8,0.01), cost = 2^(0:5)))
+print(tuneResult2)
+plot(tuneResult2)
+
+tunedModel2 <- tuneResult2$best.model
+end <- Sys.time()
+(time <- end - start)
+```
+
+```{r}
+pred_y3 = predict(tunedModel2, testData)
+myRMSE(pred_y3, testData$logArea)
+```
+SVR did not perform as well as I had hoped. This additional tuning has a worse RMSE value than the earlier model. I also tried with gamma earlier but it also got worse. I played with kernels for a bit as well but got some errors, might try it in class when we have more time. The best RMSE from SVM is ~1.276, which is worse than pretty much everything else except for decision tree. My best decision tree got to ~1.33 and my best random forest was at ~0.93. The tuned XGBoost got all the way down to ~0.81. The NN got to 1.160745. 
+
+
+```{r}
+set.seed(49301)
+start <- Sys.time()
+best <- c(100, -1, -1, -1)
+for (j in 1:25){
+  for (k in 1:25) {
+    for (l in seq(0.1, 1, 0.1)){
+      model2 <- e1071::svm(logArea ~ ., trainData, cost=j, gamma=k, epsilon=l)
+      pred2 = predict(model2, testData)
+      goodness <- myRMSE(pred2, actual)
+      # print(goodness)
+      if (goodness < best[1]) {
+        best = c(goodness, j, k, l)
+        print(best)
+      }
+    }
+    # plot(nn2)
+  }
+}
+print(best)
+end <- Sys.time()
+(time <- end - start)
+```
+

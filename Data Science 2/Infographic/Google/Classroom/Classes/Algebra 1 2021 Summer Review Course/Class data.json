@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "name": "Algebra 1 2021 Summer Review Course",
+  "calendarUrl": "https://calendar.google.com/render?cid\u003dclassroom112376183929086250855@group.calendar.google.com",
+  "courseFolder": {
+    "id": "1iW0TE6NDrrMAlurQQDbGDW6h5eMAVWy9x2bBf9dOwvnfNGJMLHy2QF5JM_gRp8WTR58wBUhD",
+    "name": "Algebra 1 2021 Summer Review Course",
+    "openUrl": "https://drive.google.com/drive/folders/1iW0TE6NDrrMAlurQQDbGDW6h5eMAVWy9x2bBf9dOwvnfNGJMLHy2QF5JM_gRp8WTR58wBUhD"
+  },
+  "photoUrl": "https://gstatic.com/classroom/themes/Math.jpg",
+  "courseState": "ACTIVE",
+  "owner": {
+    "name": {
+      "fullName": "Eric Zhou"
+    },
+    "emailAddress": "ericericzhouzhou@gmail.com"
+  },
+  "teachers": [{
+    "profile": {
+      "name": {
+        "fullName": "Eric Zhou"
+      },
+      "emailAddress": "ericericzhouzhou@gmail.com"
+    }
+  }]
+}

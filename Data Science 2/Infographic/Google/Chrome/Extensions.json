@@ -1,0 +1,50 @@
+{
+    "Extensions": [
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 0,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "kbfnbcaeplbcioakkpcpgfkobkghlhen",
+            "version": "14.1062.0",
+            "enabled": true
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 0,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "fbgcedjacmlbgleddnoacbnijgmiolem",
+            "version": "2.8",
+            "enabled": true
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 0,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "ihdpcfonbpkbbkmfbefahelibpmlmfie",
+            "version": "4.5",
+            "enabled": true
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 0,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "mcbcdkoleibgjnkjnnfpnabnpghphpeh",
+            "version": "0.0.0.10",
+            "enabled": true
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 0,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "id": "cfhdojbkjhnklbpkdaibdccddilifddb",
+            "version": "3.14.1",
+            "enabled": true
+}
+    ],
+    "Extension Settings": []
+}

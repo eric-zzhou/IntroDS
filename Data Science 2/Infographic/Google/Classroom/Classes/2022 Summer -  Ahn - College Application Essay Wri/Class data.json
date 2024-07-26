@@ -1,0 +1,299 @@
+{
+  "version": 1,
+  "name": "2022 Summer -  Ahn - College Application Essay Writing",
+  "section": "High School",
+  "room": "Professor Ahn",
+  "calendarUrl": "https://calendar.google.com/render?cid\u003dclassroom108434613669803925492@group.calendar.google.com",
+  "courseFolder": {
+    "id": "1DVPOlHKRVqCStpakd-9HlcDILYmk7R2m1G-c6TMo-xlunbZuHBtHU8je0nsnBuKNYmsfZzuR",
+    "name": "2022 Summer -  Ahn - College Application Essay Writing High School",
+    "openUrl": "https://drive.google.com/drive/folders/1DVPOlHKRVqCStpakd-9HlcDILYmk7R2m1G-c6TMo-xlunbZuHBtHU8je0nsnBuKNYmsfZzuR"
+  },
+  "photoUrl": "https://gstatic.com/classroom/themes/Writing.jpg",
+  "subject": "Writing",
+  "courseState": "ACTIVE",
+  "posts": [{
+    "creator": {
+      "name": {
+        "fullName": "Prof S J Ahn"
+      }
+    },
+    "creationTime": "2022-06-20T03:34:51.977Z",
+    "updateTime": "2022-07-23T23:03:24.462Z",
+    "scheduledTime": "2022-07-23T23:00:00Z",
+    "publicationTime": "2022-07-23T23:03:24.148Z",
+    "state": "PUBLISHED",
+    "materials": [{
+      "driveFile": {
+        "driveFile": {
+          "id": "19Dt6DcwXBu6C3-pTAvBSJm8YSHexs4tN",
+          "title": "Assessment 5.pdf",
+          "alternateLink": "https://drive.google.com/file/d/19Dt6DcwXBu6C3-pTAvBSJm8YSHexs4tN/view?usp\u003ddrive_web",
+          "thumbnailUrl": "https://lh5.googleusercontent.com/bf14j_9dKj9DCBYtzGH_NDRttrExF2FQQx28UCUiWoXZvar1QjqnlJCX35m5Etp37Y1Ux9qYtsjUBzg\u003ds200"
+        },
+        "shareMode": "VIEW"
+      }
+    }],
+    "courseWork": {
+      "title": "Assessment #5",
+      "dueTime": "2022-07-30T12:00:00Z",
+      "maxPoints": 100.0,
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "assignmentSubmission": {
+        },
+        "comments": [{
+          "creator": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          },
+          "creationTime": "2022-07-30T08:46:57.761Z",
+          "updateTime": "2022-07-30T08:46:57.636Z",
+          "comment": "Submission doesn\u0027t work. Here\u0027s a link: https://docs.google.com/document/d/1vnacax2c3KYLkd7-d5w3Fq1JMnUnXozqqxGAg86mrn8/edit?usp\u003dsharing",
+          "state": "PUBLISHED",
+          "commentVisibility": "PRIVATE"
+        }]
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Prof S J Ahn"
+      }
+    },
+    "creationTime": "2022-06-20T03:34:17.773Z",
+    "updateTime": "2022-07-16T23:01:34.186Z",
+    "scheduledTime": "2022-07-16T23:00:00Z",
+    "publicationTime": "2022-07-16T23:01:33.705Z",
+    "state": "PUBLISHED",
+    "materials": [{
+      "driveFile": {
+        "driveFile": {
+          "id": "1OpGFo1VDeLU_gTZdh7EaUiXYob_ebQGB",
+          "title": "Assessment 4.pdf",
+          "alternateLink": "https://drive.google.com/file/d/1OpGFo1VDeLU_gTZdh7EaUiXYob_ebQGB/view?usp\u003ddrive_web",
+          "thumbnailUrl": "https://lh5.googleusercontent.com/cP73b6rnSviA2xGwIU9xMhyEAtBIsHoYw4kuk_HRM9fer91-rTJv_CG08rAJ-6PEIAn-um_cYyZqRsA\u003ds200"
+        },
+        "shareMode": "VIEW"
+      }
+    }],
+    "courseWork": {
+      "title": "Assessment #4",
+      "dueTime": "2022-07-23T12:00:00Z",
+      "maxPoints": 100.0,
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "assignmentSubmission": {
+        },
+        "comments": [{
+          "creator": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          },
+          "creationTime": "2022-07-21T10:19:42.240Z",
+          "updateTime": "2022-07-21T10:19:42.060Z",
+          "comment": "Hello Professor Ahn. Google Classroom is not working for me so I sent an email to profsjahn@gmail.com and steve.ahn@abacustd.com. Hopefully that works and please tell me if it does not. Here\u0027s a link to my work as well: https://docs.google.com/document/d/13vzPPuUpTzrYTh-mII5DAqudgPPaMlTPgYPcnR2c8rU/edit?usp\u003dsharing. I would really appreciate it if you could reply if you see the email or this message just so I know you received my work. Thanks!",
+          "state": "PUBLISHED",
+          "commentVisibility": "PRIVATE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          },
+          "creationTime": "2022-07-21T10:25:48.260Z",
+          "updateTime": "2022-07-21T10:25:48.149Z",
+          "comment": "Also, I\u0027m not sure if you saw my email for Assessment #3 but I would really appreciate it if you could look over that if you have time as well. Here\u0027s a link: https://docs.google.com/document/d/1_4sydskhBNgS_hGNKNNn4BQA0rV8uGvzqzs6XCXkjk0/edit?usp\u003dsharing. Thanks for your help!",
+          "state": "PUBLISHED",
+          "commentVisibility": "PRIVATE"
+        }]
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Prof S J Ahn"
+      }
+    },
+    "creationTime": "2022-06-20T03:33:34.147Z",
+    "updateTime": "2022-07-09T23:03:29.235Z",
+    "scheduledTime": "2022-07-09T23:00:00Z",
+    "publicationTime": "2022-07-09T23:03:29.044Z",
+    "state": "PUBLISHED",
+    "materials": [{
+      "driveFile": {
+        "driveFile": {
+          "id": "1JPWBVsmrUuqf--tyyOGgX4T_yC_SHpru",
+          "title": "Assessment 3.pdf",
+          "alternateLink": "https://drive.google.com/file/d/1JPWBVsmrUuqf--tyyOGgX4T_yC_SHpru/view?usp\u003ddrive_web",
+          "thumbnailUrl": "https://lh6.googleusercontent.com/KPHKyjjn-dMDyl6ZMv9A0O5p-29oxaLqn4wDhknvMIPkFaS2fRla8jO4kpV9wCUiKUvACqccdMI7iCw\u003ds200"
+        },
+        "shareMode": "VIEW"
+      }
+    }],
+    "courseWork": {
+      "title": "Assessment #3",
+      "dueTime": "2022-07-16T12:00:00Z",
+      "maxPoints": 100.0,
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "assignmentSubmission": {
+        },
+        "comments": [{
+          "creator": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          },
+          "creationTime": "2022-07-16T00:28:36.999Z",
+          "updateTime": "2022-07-16T00:28:36.889Z",
+          "comment": "Hello Professor Ahn. I am getting an error on Google Classroom and cannot submit. I sent my work on an email to profsjahn@gmail.com, the email you shared at the end of class. Hopefully that works and please tell me if it does not. Thanks!",
+          "state": "PUBLISHED",
+          "commentVisibility": "PRIVATE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          },
+          "creationTime": "2022-07-23T16:42:58.174Z",
+          "updateTime": "2022-07-23T16:42:58.151Z",
+          "comment": "Hello Professor Ahn. Here\u0027s a link as well, I would appreciate it if you could take a look if you have time: https://docs.google.com/document/d/1_4sydskhBNgS_hGNKNNn4BQA0rV8uGvzqzs6XCXkjk0/edit",
+          "state": "PUBLISHED",
+          "commentVisibility": "PRIVATE"
+        }]
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Prof S J Ahn"
+      }
+    },
+    "creationTime": "2022-06-20T03:32:53.620Z",
+    "updateTime": "2022-07-09T20:24:11.831Z",
+    "scheduledTime": "2022-06-27T12:00:00Z",
+    "publicationTime": "2022-06-27T12:04:58Z",
+    "state": "PUBLISHED",
+    "materials": [{
+      "driveFile": {
+        "driveFile": {
+          "id": "18G05VvBXbqufYMzsLUJhwJ1KfgzrRfTu",
+          "title": "Assessment 2.pdf",
+          "alternateLink": "https://drive.google.com/file/d/18G05VvBXbqufYMzsLUJhwJ1KfgzrRfTu/view?usp\u003ddrive_web",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/OYTF2TbH_CJoHqzhZNfbDa8HvFnLuY24fUhBdY4r9NR413gNd58XtD0SPm4buyEOTMpBRh-KWoXS3xs\u003ds200"
+        },
+        "shareMode": "VIEW"
+      }
+    }],
+    "courseWork": {
+      "title": "Assessment #2",
+      "dueTime": "2022-07-16T12:00:00Z",
+      "maxPoints": 100.0,
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "assignmentSubmission": {
+          "attachments": [{
+            "driveFile": {
+              "id": "1rqjMrcYob-G5es1tCkOKZ5N2lITKWCnm6_QzZHqEcSY",
+              "title": "Eric Zhou - Assessment #2",
+              "alternateLink": "https://docs.google.com/document/d/1rqjMrcYob-G5es1tCkOKZ5N2lITKWCnm6_QzZHqEcSY/edit?usp\u003ddrive_web",
+              "thumbnailUrl": "https://lh3.google.com/Pe-BF4vFWmHRy52qqrJvzzeADmUgcxrAlgZ40i2t4aXlxe9vhqkQ9RDTTsvL7Yh4en9foAvHsYiKhVz4pUP5H3O_rHFp3nMQIJdl\u003ds200"
+            }
+          }]
+        }
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Prof S J Ahn"
+      }
+    },
+    "creationTime": "2022-06-20T03:31:15.924Z",
+    "updateTime": "2022-06-20T12:04:48.987Z",
+    "scheduledTime": "2022-06-20T12:00:00Z",
+    "publicationTime": "2022-06-20T12:04:48.736Z",
+    "state": "PUBLISHED",
+    "materials": [{
+      "driveFile": {
+        "driveFile": {
+          "id": "1VOq_2BMXe1IBfKuYXzZkiPs_uHzO4vb7",
+          "title": "Assessment 1.pdf",
+          "alternateLink": "https://drive.google.com/file/d/1VOq_2BMXe1IBfKuYXzZkiPs_uHzO4vb7/view?usp\u003ddrive_web",
+          "thumbnailUrl": "https://lh5.googleusercontent.com/e-H6VYtxeXE-bdKeMh2E4GAUcxMCM1TPN1c3z7IlpGSBrIGxIN5ap8vGfAwsGmtQZu35iZDs7t86D-c\u003ds200"
+        },
+        "shareMode": "VIEW"
+      }
+    }],
+    "courseWork": {
+      "title": "Assessment #1",
+      "maxPoints": 100.0,
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "assignmentSubmission": {
+          "attachments": [{
+            "driveFile": {
+              "id": "1E0vLZxpJyrzroP28dJVGdCDEpDY8-CEmkgdWstf8-m8",
+              "title": "Eric Zhou - Assessment #1",
+              "alternateLink": "https://docs.google.com/document/d/1E0vLZxpJyrzroP28dJVGdCDEpDY8-CEmkgdWstf8-m8/edit?usp\u003ddrive_web",
+              "thumbnailUrl": "https://lh3.google.com/Gn0yn8z-eHpNTWFJ0gWYVNY1dYosZ_lBNMpCRqiAe4du9Y0_gAJygrWrMZtrOeHyBpK90wI2GMGczBLDDusS5VUejskmj8-8sEhU\u003ds200"
+            }
+          }]
+        }
+      }]
+    }
+  }]
+}

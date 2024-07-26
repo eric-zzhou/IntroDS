@@ -1,0 +1,13 @@
+name: BasicPokemonInfo
+title: BasicPokemonInfo
+username:
+account: ejoez
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7508336
+bundleId: 6470278
+url: https://ejoez.shinyapps.io/BasicPokemonInfo/
+when: 1667456176.92258
+lastSyncTime: 1667456176.92261
+asMultiple: FALSE
+asStatic: FALSE

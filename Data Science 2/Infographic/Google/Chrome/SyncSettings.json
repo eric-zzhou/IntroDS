@@ -1,0 +1,327 @@
+{
+    "Apps": [
+        {
+            "app_launch_ordinal": "t",
+            "extension": {
+                        "incognito_enabled": true,
+                        "remote_install": false,
+                        "disable_reasons": 0,
+                        "update_url": "",
+                        "id": "ahfgeienlihckogmohjhadlkjgocpleb",
+                        "version": "0.2",
+                        "enabled": true
+            },
+            "page_ordinal": "n"
+},
+        {
+            "app_launch_ordinal": "zs",
+            "extension": {
+                        "incognito_enabled": false,
+                        "remote_install": false,
+                        "disable_reasons": 0,
+                        "update_url": "",
+                        "name": "Spotify",
+                        "id": "pjibgclleladliembfgfagdaldikeohf",
+                        "version": "0",
+                        "enabled": true
+            },
+            "bookmark_app_icon_color": "#1ED55F",
+            "linked_app_icons": [
+                        {
+                                    "size": 16,
+                                    "url": "https://open.scdn.co/cdn/images/icons/Spotify_16.aa3775a0.png"
+                        },
+                        {
+                                    "size": 32,
+                                    "url": "https://open.scdn.co/cdn/images/icons/Spotify_32.492cdebf.png"
+                        },
+                        {
+                                    "size": 128,
+                                    "url": "https://open.scdn.co/cdn/images/icons/Spotify_128.c9ce2f2e.png"
+                        },
+                        {
+                                    "size": 256,
+                                    "url": "https://open.scdn.co/cdn/images/icons/Spotify_256.c8416b60.png"
+                        },
+                        {
+                                    "size": 512,
+                                    "url": "https://open.scdn.co/cdn/images/icons/Spotify_512.49a0bf03.png"
+                        },
+                        {
+                                    "size": 1024,
+                                    "url": "https://open.scdn.co/cdn/images/icons/Spotify_1024.d6467a14.png"
+                        }
+            ],
+            "bookmark_app_theme_color": -15592942,
+            "bookmark_app_scope": "https://open.spotify.com/",
+            "page_ordinal": "n",
+            "bookmark_app_url": "https://open.spotify.com/?utm_source=pwa_install",
+            "launch_type": "WINDOW"
+}
+    ],
+    "App Settings": [],
+    "Preferences": [
+        {
+            "name": "profile.content_settings.exceptions.images",
+            "value": "{}"
+},
+        {
+            "name": "autofill.profile_enabled",
+            "value": "true"
+},
+        {
+            "name": "translate_too_often_denied_for_language",
+            "value": "{\"fr\":true,\"zh-CN\":true}"
+},
+        {
+            "name": "browser.clear_data.time_period",
+            "value": "3"
+},
+        {
+            "name": "translate_force_trigger_on_english_count_for_backoff_1",
+            "value": "-1"
+},
+        {
+            "name": "session.restore_on_startup",
+            "value": "5"
+},
+        {
+            "name": "profile.cookie_controls_mode",
+            "value": "0"
+},
+        {
+            "name": "translate_ignored_count_for_language",
+            "value": "{\"de\":1,\"es\":4,\"fr\":4,\"it\":0,\"pl\":8,\"pt\":1,\"sk\":1,\"vi\":1,\"zh-CN\":32,\"zh-TW\":3}"
+},
+        {
+            "name": "browser.enable_spellchecking",
+            "value": "true"
+},
+        {
+            "name": "profile.name",
+            "value": "\"Person 1\""
+},
+        {
+            "name": "profile.using_gaia_avatar",
+            "value": "false"
+},
+        {
+            "name": "browser.clear_data.cookies_basic",
+            "value": "true"
+},
+        {
+            "name": "profile.using_default_avatar",
+            "value": "false"
+},
+        {
+            "name": "browser.clear_data.preferences_migrated_to_basic",
+            "value": "true"
+},
+        {
+            "name": "profile.content_settings.exceptions.cookies",
+            "value": "{\"https://sites.google.com,*\":{\"last_modified\":\"13182841617163166\",\"setting\":1}}"
+},
+        {
+            "name": "translate_recent_target",
+            "value": "\"\""
+},
+        {
+            "name": "translate_blocked_languages",
+            "value": "[\"es\"]"
+},
+        {
+            "name": "autofill.profile_use_dates_fixed",
+            "value": "true"
+},
+        {
+            "name": "browser.clear_data.cache_basic",
+            "value": "true"
+},
+        {
+            "name": "profile.content_settings.exceptions.get_display_media_set_select_all_screens",
+            "value": "{}"
+},
+        {
+            "name": "profile.content_settings.exceptions.plugins",
+            "value": "{\"http://www.notdoppler.com:80,*\":{\"last_modified\":\"13160704055528842\",\"setting\":1},\"https://mail.google.com:443,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://ninjakiwi.com:443,*\":{\"last_modified\":\"13171690205194344\",\"setting\":1},\"https://scratch.mit.edu:443,*\":{\"setting\":1},\"https://sites.google.com:443,*\":{\"last_modified\":\"0\",\"setting\":1}}"
+},
+        {
+            "name": "default_search_provider.synced_guid",
+            "value": "\"122ca692-fa3e-4e98-ba68-3de6c6851867\""
+},
+        {
+            "name": "sharing.vapid_key",
+            "value": "{\"vapid_creation_timestamp\":\"13214292741400219\",\"vapid_private_key\":\"MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgNmrNss01bx/XHEWk32O/7+TQHM8Uy9Dt9F7S1XiNeSuhRANCAARQmsTLqqF7uIRXBjkwCzQcLp2ye7QDF5pGZIH7ro8F3V3cYHsPEbWJKwzy5jp1ey9nLgPIhxqaHs8bc2Zgzx7n\"}"
+},
+        {
+            "name": "extensions.commands",
+            "value": "{\"windows:Ctrl+Shift+S\":{\"command_name\":\"save-page-to-backpack\",\"extension\":\"lifbcibllhkdhoafpjfnlhfpfgnpldfl\",\"global\":false}}"
+},
+        {
+            "name": "browser.clear_data.cache",
+            "value": "false"
+},
+        {
+            "name": "translate_denied_count_for_language",
+            "value": "{\"de\":0,\"es\":2,\"fr\":4,\"it\":0,\"sk\":0,\"zh-CN\":4,\"zh-TW\":1}"
+},
+        {
+            "name": "profile.content_settings.exceptions.storage_access",
+            "value": "{}"
+},
+        {
+            "name": "profile.content_settings.exceptions.automatic_downloads",
+            "value": "{\"https://eastsideprep.instructure.com:443,*\":{\"last_modified\":\"13225414586219528\",\"setting\":1},\"https://en.softonic.com:443,*\":{\"last_modified\":\"13214292622594513\",\"setting\":2},\"https://four11.eastsideprep.org:443,*\":{\"last_modified\":\"13218578217158323\",\"setting\":1},\"https://load.retroemulator.com:443,*\":{\"last_modified\":\"13217038035636756\",\"setting\":1},\"https://outlook.live.com:443,*\":{\"last_modified\":\"0\",\"setting\":1},\"https://unsplash.com:443,*\":{\"last_modified\":\"13214423759908781\",\"setting\":1},\"https://www.icloud.com:443,*\":{\"last_modified\":\"13217794072656115\",\"setting\":1},\"https://www.winzip.com:443,*\":{\"last_modified\":\"13231726148469024\",\"setting\":1}}"
+},
+        {
+            "name": "profile.block_third_party_cookies",
+            "value": "false"
+},
+        {
+            "name": "intl.accept_languages",
+            "value": "\"en-US,en,es\""
+},
+        {
+            "name": "profile.content_settings.exceptions.flash_data",
+            "value": "{\"http://www.iqiyi.com:80,*\":{\"last_modified\":\"13209290761861649\",\"setting\":{\"flashPreviouslyChanged\":true}},\"http://www.pbs.org:80,*\":{\"last_modified\":\"13215538858733845\",\"setting\":{\"flashPreviouslyChanged\":true}},\"https://ninjakiwi.com:443,*\":{\"last_modified\":\"13226448729050716\",\"setting\":{\"flashPreviouslyChanged\":true}},\"https://scaleofuniverse.com:443,*\":{\"last_modified\":\"13214006991360568\",\"setting\":{\"flashPreviouslyChanged\":true}},\"https://scratch.mit.edu:443,*\":{\"last_modified\":\"13190611652707962\",\"setting\":{\"flashPreviouslyChanged\":true}},\"https://sites.google.com:443,*\":{\"last_modified\":\"13203285444677888\",\"setting\":{\"flashPreviouslyChanged\":true}},\"https://www.clickerheroes.com:443,*\":{\"last_modified\":\"13229490295097286\",\"setting\":{\"flashPreviouslyChanged\":true}},\"https://www.coolmathgames.com:443,*\":{\"last_modified\":\"13229490651148183\",\"setting\":{\"flashPreviouslyChanged\":true}},\"https://www.pbs.org:443,*\":{\"last_modified\":\"13224120294881497\",\"setting\":{\"flashPreviouslyChanged\":true}}}"
+},
+        {
+            "name": "translate_allowlists",
+            "value": "{}"
+},
+        {
+            "name": "profile.content_settings.exceptions.local_fonts",
+            "value": "{}"
+},
+        {
+            "name": "translate_whitelists",
+            "value": "{}"
+},
+        {
+            "name": "browser.clear_data.cookies",
+            "value": "false"
+},
+        {
+            "name": "profile.content_settings.exceptions.popups",
+            "value": "{}"
+},
+        {
+            "name": "profile.default_content_setting_values.plugins",
+            "value": "5"
+},
+        {
+            "name": "net.easter_egg_high_score",
+            "value": "139581"
+},
+        {
+            "name": "translate_site_blacklist",
+            "value": "[]"
+},
+        {
+            "name": "profile.content_settings.exceptions.font_access",
+            "value": "{}"
+},
+        {
+            "name": "download.prompt_for_download",
+            "value": "true"
+},
+        {
+            "name": "browser.clear_data.download_history",
+            "value": "false"
+},
+        {
+            "name": "translate_force_trigger_on_english_count_for_backoff",
+            "value": "-1"
+},
+        {
+            "name": "ntp.app_page_names",
+            "value": "[\"Apps\"]"
+},
+        {
+            "name": "profile.avatar_index",
+            "value": "1"
+},
+        {
+            "name": "browser.back_shortcut_bubble_shown_count",
+            "value": "5"
+},
+        {
+            "name": "browser.clear_data.time_period_basic",
+            "value": "0"
+},
+        {
+            "name": "translate_site_blacklist_with_time",
+            "value": "{}"
+},
+        {
+            "name": "history.menu_promo_shown",
+            "value": "true"
+},
+        {
+            "name": "profile.password_manager_enabled",
+            "value": "true"
+},
+        {
+            "name": "extensions.pinned_extensions",
+            "value": "[\"cfhdojbkjhnklbpkdaibdccddilifddb\"]"
+},
+        {
+            "name": "translate_accepted_count",
+            "value": "{\"de\":1,\"es\":0,\"fr\":0,\"it\":2,\"sk\":1,\"zh-CN\":0,\"zh-TW\":0}"
+},
+        {
+            "name": "settings.a11y.enable_accessibility_image_labels_opt_in_accepted",
+            "value": "true"
+},
+        {
+            "name": "intl.selected_languages",
+            "value": "\"en-US,en,es\""
+},
+        {
+            "name": "profile.content_settings.exceptions.javascript",
+            "value": "{}"
+},
+        {
+            "name": "bookmark_bar.show_on_all_tabs",
+            "value": "true"
+},
+        {
+            "name": "extensions.toolbar",
+            "value": "[\"aapbdbdomjkkjkaonfhkkikfgjllcleb\",\"honjcnefekfnompampcpmcdadibmjhlk\",\"ppnbnpeolgkicgegkbkbjmhlideopiji\",\"kbfnbcaeplbcioakkpcpgfkobkghlhen\",\"mcbcdkoleibgjnkjnnfpnabnpghphpeh\",\"fbgcedjacmlbgleddnoacbnijgmiolem\",\"ihdpcfonbpkbbkmfbefahelibpmlmfie\",\"cfhdojbkjhnklbpkdaibdccddilifddb\"]"
+},
+        {
+            "name": "profile.content_settings.exceptions.midi_sysex",
+            "value": "{}"
+},
+        {
+            "name": "hotword.audio_logging_enabled",
+            "value": "false"
+},
+        {
+            "name": "translate.enabled",
+            "value": "false"
+},
+        {
+            "name": "profile.content_settings.exceptions.window_placement",
+            "value": "{}"
+},
+        {
+            "name": "sharing.synced_devices",
+            "value": "{\"/aNC/xiAuJN8aETly86xAQ==\":{\"device_auth_secret\":\"RTW+vm67uUb2dYgQmTQgyg==\",\"device_capabilities\":2,\"device_fcm_token\":\"dE7Un7SFgfw:APA91bHKDez2uoJqEtIiT_bQlM0nhfYU5SzD9oTd2nInFjy7GAhcx6-JVwlSTyk9YR2To1wC0JMN60o6B-SHRTVzHZ9X0WaIQjByQtZd7Qzv_lG3ok7w0P8Shsyby-6KeL37T2n8Z-xY\",\"device_last_updated\":\"13218398172549725\",\"device_p256dh\":\"BL7kA1zEB1PQuJSH70rjJduXbJTV0Wtv0nPulO7EJ934rtVwbWRfCSg/QaVaFhNMeO3GPTuOur+Ry27ap0OON94=\"},\"I8SErTmIj4ZsYvNiWl+DKw==\":{\"device_auth_secret\":\"xW5W3em7usP8io5BJoXpsQ==\",\"device_capabilities\":2,\"device_fcm_token\":\"d2P0jszrimk:APA91bFpeTDCdVn3z06opFnxR7isUARiwS7vgX-nd5t71kz4xZ6NYqabyfHs3qfsR_dBrMmvqEzDqp1k7NjlwUjH3qZHHm10NFZqpw4-twohxICOQLCNPUANE8OH2yUbYQX-xPuxeKUr\",\"device_last_updated\":\"13218349195997830\",\"device_p256dh\":\"BPlWksKj1gQhepUW/K/MQ6kYQCQEoQL6W8/6zTTaTkJpj456GLL7ZmJKiepVZmRJLk3Vasj2rCEbyUJzjnQ/+80=\"},\"nvXUczfumRdLje77ovsOlw==\":{\"device_auth_secret\":\"y3ErN0U+1XRZb/IHqBuxZQ==\",\"device_capabilities\":2,\"device_fcm_token\":\"cAzIiEULXWI:APA91bFne-61COl-opjcCbzxl6kzc35y2w48DCah4rXgyVcX9BSBofvqyU_Mx-ORYZ2pNn4jSWPeesZPFq-Wo06UJyyD6eYwGxg1ocwSpv-hNAjQJuUAToshf4lGjo9pg5qV-A_ruJba\",\"device_p256dh\":\"BMDOlXXOuwUjKMm6paThk18t0/zZQw/phMPI2Ddkv05NgA9amCaPRyUKP3t3lrxxDf5pCRbVs+51BLNBzpjXFQA=\"}}"
+},
+        {
+            "name": "browser.clear_data.browsing_history_basic",
+            "value": "true"
+},
+        {
+            "name": "autofill.last_version_disused_addresses_deleted",
+            "value": "70"
+}
+    ],
+    "Themes": [
+        {
+            "use_system_theme_by_default": false,
+            "use_custom_theme": false
+}
+    ]
+}

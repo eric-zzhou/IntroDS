@@ -1,0 +1,33 @@
+---
+title: "PokeAPI Test"
+output: html_notebook
+---
+```{r}
+library(httr)
+library(jsonlite)
+suppressWarnings(library(tidyverse))
+```
+
+
+```{r}
+r <- GET("https://pokeapi.co/api/v2/pokemon/pikachu")
+response <- rawToChar(r$content)
+rawdata <- fromJSON(response)
+rawdata$sprites$front_default
+```
+
+```{r}
+moves <- rawdata$moves %>% unnest(move) %>% unnest(version_group_details) %>% distinct(url, .keep_all=TRUE) %>% select(name, level_learned_at)
+moves
+# moves[!duplicated(moves$url),]
+# rawdata$stats
+```
+
+```{r}
+rawdata$stats %>% unnest(stat) %>% select(name, base_stat, effort)
+```
+
+```{r}
+rawdata$name
+```
+

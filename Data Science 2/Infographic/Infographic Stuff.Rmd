@@ -1,0 +1,88 @@
+---
+title: "Eric Infographic Work"
+output: html_notebook
+---
+Stuff consulted:
+<br>
+https://stackoverflow.com/questions/42820677/ggplot-bar-plot-side-by-side-using-two-variables
+<br>
+https://www.geeksforgeeks.org/merge-dataframes-by-column-names-in-r/#:~:text=The%20merge()%20function%20in,in%20the%20input%20function%20call.
+
+
+# Basic Library Stuff
+```{r}
+library(tidyverse)
+library(jsonlite)
+library(lubridate)
+# library(rjson)
+library(dplyr)
+library(ggplot2)
+library(reshape)
+```
+
+# Spotify Stuff
+```{r}
+setwd("C:/Users/ezhou/OneDrive - Eastside Preparatory School/Documents/Eric/2022 - 2023/1 Fall/A Data Science/Infographic")
+spotify_playlist <- jsonlite::fromJSON("Spotify/Playlist1.json")
+# head(spotify_playlist)
+```
+
+## Added tracks
+```{r}
+playlistDF <- spotify_playlist %>% as.data.frame %>% unnest(playlists.items) %>% unnest(track)
+playlistDF <- playlistDF %>% transmute(Track = trackName, Timestamp = as.Date(addedDate), Year = year(Timestamp))
+playlistDF
+```
+```{r}
+(songCount <- playlistDF %>% group_by(Year) %>% summarise(Count = n()))
+songCount %>% ggplot() +
+  geom_bar(aes(x=Year, y=Count), stat="identity") +
+  labs(title = "Count of Songs Added to Playlists by Year")
+```
+
+## Minutes listened
+```{r}
+plays1 <- jsonlite::fromJSON("Spotify/StreamingHistory0.json")
+plays2 <- jsonlite::fromJSON("Spotify/StreamingHistory1.json")
+song_plays1 <- plays1 %>% as.data.frame
+song_plays2 <- plays2 %>% as.data.frame
+song_plays <- rbind(song_plays1, song_plays2)
+head(song_plays)
+```
+
+```{r}
+playsDF <- song_plays %>% transmute(Timestamp = as.Date(endTime), Length = msPlayed / 60000, Year = year(Timestamp))
+playsDF
+(minutesPlayed <- playsDF %>% group_by(Year) %>% summarise(Minutes = sum(Length)))
+```
+
+# Instagram stuff
+## Followers
+```{r}
+followersjs <- jsonlite::fromJSON("Instagram/followers.json")
+followersDF <- followersjs %>% as.data.frame %>% unnest(relationships_followers.string_list_data)
+followersDF <- followersDF %>% transmute(Account = value, 
+                                         Timestamp = as.Date(as.POSIXct(timestamp, origin = "1970-01-01")), 
+                                         Year = year(Timestamp))
+(followerCount <- followersDF %>% group_by(Year) %>% summarise(Followers = n()))
+```
+
+## Following
+```{r}
+followjs <- jsonlite::fromJSON("Instagram/following.json")
+followDF <- followjs %>% as.data.frame %>% unnest(relationships_following.string_list_data)
+followDF <- followDF %>% transmute(Account = value, 
+                                   Timestamp = as.Date(as.POSIXct(timestamp, origin = "1970-01-01")), 
+                                   Year = year(Timestamp))
+(followCount <- followDF %>% group_by(Year) %>% summarise(Follows = n()))
+```
+
+```{r}
+instaCount <- merge(followCount, followerCount, by = 'Year')
+instaCount <- melt(instaCount, id.vars='Year')
+# head(instaCount)
+instaCount %>% ggplot() +
+  geom_bar(aes(x=Year, y=value, fill=variable), stat="identity", position="dodge") +
+  labs(title = "New Instagram Follows & Followers by Year")
+```
+

@@ -1,0 +1,255 @@
+---
+title: "XGBoost on Forest Fires"
+output: html_notebook
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+Used the resources provided and my own knowledge: <br>
+<https://www.projectpro.io/recipes/apply-xgboost-r-for-regression/> <br>
+<https://www.r-bloggers.com/2020/11/r-xgboost-regression/> <br>
+<https://www.nvidia.com/en-us/glossary/data-science/xgboost/>
+
+## Start
+
+### Loading Libraries and Data
+
+```{r}
+# load packages
+# https://stackoverflow.com/questions/18931006/how-to-suppress-warning-messages-when-loading-a-library
+suppressWarnings(library(tidyverse)) #for ggplot and dplyr
+library(corrplot) #for correlation plots
+library(rattle)
+library(caTools)
+library(xgboost)
+library(caret)
+```
+
+```{r}
+setwd("C:/Users/ezhou/OneDrive - Eastside Preparatory School/Documents/Eric/2022 - 2023/1 Fall/A Data Science/Forest Fires")
+forestRaw <- read.csv("forestfires.csv")
+```
+
+### Data Preprocessing
+
+```{r}
+# summary(forestRaw)
+
+forestNum <- forestRaw %>% select(-month, -day)
+corrs <- cor(forestNum)
+corrplot(corrs, order = 'hclust', addrect = 2)
+
+# RMSE function
+myRMSE <- function(pred, obs) {
+  return(sqrt(mean((pred - obs) ^ 2, na.rm = TRUE)))
+}
+```
+
+```{r}
+forestNum <- forestNum %>% mutate(logArea = log(area+1))
+# summary(forestNum)
+```
+
+## XGBoost
+
+XGBoost stands for extreme gradient boosting. Boosting is the
+improvement of a weak model by combining it with many other weak models.
+Gradient boosting is an extension of that where the process of
+generating other weak models formalized as a gradient descent algorithm
+tuning for a certain objective. XGBoost is extreme because it uses
+multithreading and pushes the limits of the computer's computing power.
+XGBoost also does regularization and uses both trees and linear models.
+
+### Splitting Data
+
+```{r}
+set.seed(49301) # keeping the same seed as the other file
+ind <- sample.split(Y=forestNum, SplitRatio=0.8)
+trainData <- forestNum[ind,]
+testData <- forestNum[-ind,]
+# head(trainData)
+
+train_x = data.matrix(trainData[,-11:-12])
+train_y = trainData[,12]
+# head(train_x)
+# head(train_y)
+
+test_x = data.matrix(testData[,-11:-12])
+test_y = testData[,12]
+
+xgb_train = xgb.DMatrix(data = train_x, label = train_y)
+xgb_test = xgb.DMatrix(data = test_x, label = test_y)
+```
+
+### Creating Model
+
+```{r}
+watchlist = list(train=xgb_train, test=xgb_test)
+start <- Sys.time() 
+model = xgb.train(data = xgb_train, max.depth = 3, watchlist=watchlist, nrounds = 1000, verbose=FALSE, early_stopping_rounds = 10)
+end <- Sys.time()
+(time <- end - start)
+pred_y = predict(model, xgb_test)
+myRMSE(pred_y, test_y)
+```
+
+Model is a bit slower, took around 1 second. The error for 100 rounds is
+around 0.94 (close to random forest), but 1000 makes it around 0.86,
+which is a lot better.
+
+```{r}
+imp_mat <- xgb.importance(model = model)
+xgb.plot.importance(imp_mat, xlab = "Feature Importance")
+```
+
+The feature importance matches pretty well with what we saw last time
+with the randomForest. Temperature is still way above and rain is still
+dead last. The order in the middle are slightly different but they all
+remain decently close and close to the spots from before.
+
+### Grid Search Tuning of Max_Depth and ETA
+
+```{r}
+set.seed(49301)
+start <- Sys.time() 
+hyper_grid <- expand.grid(max_depth = seq(2, 10, 1), eta = seq(0, .35, .01))
+xgb_train_rmse <- NULL
+xgb_test_rmse <- NULL
+
+for (j in 1:nrow(hyper_grid)) {
+  m_xgb_untuned <- xgb.cv(
+    data = train_x,
+    label = train_y,
+    nrounds = 1000,
+    objective = "reg:squarederror",
+    early_stopping_rounds = 5,
+    nfold = 5,
+    max_depth = hyper_grid$max_depth[j],
+    eta = hyper_grid$eta[j],
+    verbose = FALSE,
+    nthreads = 6
+  )
+  xgb_train_rmse[j] <- m_xgb_untuned$evaluation_log$train_rmse_mean[m_xgb_untuned$best_iteration]
+  xgb_test_rmse[j] <- m_xgb_untuned$evaluation_log$test_rmse_mean[m_xgb_untuned$best_iteration]
+}
+
+hyper_grid[which.min(xgb_train_rmse),]
+end <- Sys.time()
+(time <- end - start)
+```
+
+$$ 
+\frac{2}{3}
+$$
+
+Through trying every combination with in the range, we find that 6 and
+0.34 for max_depth and eta respectively got the lowest training RMSE. I
+tried using testing RMSE earlier and it did not work at all so I decided
+to just find the minimum training RMSE instead and it seems to work a
+lot better. Tuning does take a whole 2 minutes though but it makes sense
+since it's running through every combination possible.
+
+```{r}
+start <- Sys.time() 
+model2 = xgb.train(data = xgb_train, max.depth = 6, eta = 0.34, watchlist=watchlist, nrounds = 1000, verbose=FALSE, early_stopping_rounds = 10)
+end <- Sys.time()
+(time <- end - start)
+pred_y2 = predict(model2, xgb_test)
+myRMSE(pred_y2, test_y)
+```
+
+Making the XGBoost model is very fast, \<0.6 seconds. The RMSE after
+tuning is a bit better, dropping from \~0.86 to \~0.81.
+
+```{r}
+imp_mat <- xgb.importance(model = model2)
+xgb.plot.importance(imp_mat, xlab = "Feature Importance")
+```
+
+### Tuning the nrounds
+
+```{r}
+set.seed(49301)
+start <- Sys.time() 
+rounds <- expand.grid(rs = seq(100, 10000, 100))
+xgb_train_rmse <- NULL
+xgb_test_rmse <- NULL
+
+for (j in 1:nrow(rounds)) {
+  m_xgb_untuned <- xgb.cv(
+    data = train_x,
+    label = train_y,
+    nrounds = rounds$rs[j],
+    objective = "reg:squarederror",
+    early_stopping_rounds = 5,
+    nfold = 5,
+    max_depth = 6,
+    eta = 0.34,
+    verbose = FALSE
+  )
+  # print(rounds$rs[j])
+  xgb_train_rmse[j] <- m_xgb_untuned$evaluation_log$train_rmse_mean[m_xgb_untuned$best_iteration]
+  xgb_test_rmse[j] <- m_xgb_untuned$evaluation_log$test_rmse_mean[m_xgb_untuned$best_iteration]
+}
+
+rounds[which.min(xgb_train_rmse),]
+rounds[which.min(xgb_test_rmse),]
+rounds$rmse = xgb_train_rmse
+ggplot(rounds) +
+  geom_point(aes(x=rs, y = xgb_test_rmse)) +
+  ggtitle("RMSE as nrounds Varies")
+end <- Sys.time()
+(time <- end - start)
+```
+
+The graph seems pretty chaotic and the points are pretty much
+concentrated in one area with a few outliers.
+
+```{r}
+start <- Sys.time() 
+model3 = xgb.train(data = xgb_train, max.depth = 6, eta = 0.34, watchlist=watchlist, nrounds = 1, verbose=FALSE, early_stopping_rounds = 10)
+model4 = xgb.train(data = xgb_train, max.depth = 6, eta = 0.34, watchlist=watchlist, nrounds = 10, verbose=FALSE, early_stopping_rounds = 10)
+model5 = xgb.train(data = xgb_train, max.depth = 6, eta = 0.34, watchlist=watchlist, nrounds = 100, verbose=FALSE, early_stopping_rounds = 10)
+model6 = xgb.train(data = xgb_train, max.depth = 6, eta = 0.34, watchlist=watchlist, nrounds = 4900, verbose=FALSE, early_stopping_rounds = 10)
+model7 = xgb.train(data = xgb_train, max.depth = 6, eta = 0.34, watchlist=watchlist, nrounds = 9600, verbose=FALSE, early_stopping_rounds = 10)
+end <- Sys.time()
+(time <- end - start)
+pred_y3 = predict(model3, xgb_test)
+pred_y4 = predict(model4, xgb_test)
+pred_y5 = predict(model5, xgb_test)
+pred_y6 = predict(model6, xgb_test)
+pred_y7 = predict(model7, xgb_test)
+myRMSE(pred_y3, test_y)
+myRMSE(pred_y4, test_y)
+myRMSE(pred_y5, test_y)
+myRMSE(pred_y6, test_y)
+myRMSE(pred_y7, test_y)
+```
+
+It seems like the nrounds doesn't matter too much after tuning eta and
+max.depth. When I ran the model before tuning, nrounds at 100 performed
+a lot worse than 1000. However, now there is no difference between 100
+and 4900.
+
+## Comparison
+
+```{r}
+myRMSE(pred_y5, test_y)
+```
+
+Based on overall RMSE, my best decision tree got to \~1.33 and my best
+random forest was at \~0.93. The tuned XGBoost model did a lot better,
+getting all the way down to \~0.81. As for benefits, decision tree is
+the simplest of the bunch so it is a lot faster to train but loses
+accuracy. Random forest is a bit more complex and does prevent
+overfitting but still does not reach the level of XGBoost. XGBoost takes
+the most time to train and has a myriad of variables to tune but does
+offer the best accuracy. It also fits different forms of data and
+minimizes underfitting.
+
+```{r}
+model8 = xgb.train(data = xgb_train, max.depth = 6, eta = 0.34, watchlist=watchlist, nrounds = 60, verbose=FALSE, early_stopping_rounds=10, alpha=0, lambda=0.001)
+pred_y8 = predict(model8, xgb_test)
+myRMSE(pred_y8, test_y)
+```

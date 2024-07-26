@@ -1,0 +1,789 @@
+{
+  "version": 1,
+  "name": "Citizenship In Society Merit Badge",
+  "description": "Online Cit In Soc. merit badge class hosted by Charlie Hayden",
+  "calendarUrl": "https://calendar.google.com/render?cid\u003dclassroom109214335395253938010@group.calendar.google.com",
+  "courseFolder": {
+    "id": "1_ry2U-smiyI_RmFW64RkpjvJx3Fa7ij6zYQCVJ_c7fACtJMEOfk5tQR6ZcsWmJ2g79P6RC_u",
+    "name": "Citizenship In Society Merit Badge",
+    "openUrl": "https://drive.google.com/drive/folders/1_ry2U-smiyI_RmFW64RkpjvJx3Fa7ij6zYQCVJ_c7fACtJMEOfk5tQR6ZcsWmJ2g79P6RC_u"
+  },
+  "photoUrl": "https://gstatic.com/classroom/themes/Geography.jpg",
+  "courseState": "ACTIVE",
+  "posts": [{
+    "creator": {
+      "name": {
+        "fullName": "Charles R Hayden"
+      }
+    },
+    "creationTime": "2022-05-13T01:10:09.383Z",
+    "updateTime": "2022-05-24T01:04:11.701Z",
+    "publicationTime": "2022-05-24T01:04:11.388Z",
+    "state": "PUBLISHED",
+    "topics": [{
+      "name": "Real World Applications"
+    }],
+    "courseWork": {
+      "title": "Requirement 11",
+      "description": "Scouting strives to develop young people to be future leaders in their workplaces, schools, and community environments. As you look at your current involvement in school, your family, Scouting, your job, and/or community, think about how you can have a positive impact in diversity, equity, and inclusion.\n\n\na. Describe your ideas on how you can and will support others with different identities to feel included and heard at your school, workplace, and/or social settings in your community.\n\n\nb. Explain how including diverse thoughts and opinions from others with different identities can:\n• Make your interactions more positive.\n• Help everyone benefit by considering different opinions.\n\n\nc. Give three examples of how limiting diverse input can be harmful.\n\n\nd. Give three examples of how considering diverse opinions can lead to innovation and success.\n\n\nThis is last requirement is supposed to be a reflection on all that you have learned. Please write about your thoughts making sure to cover all the points listed above. Your reflection should be 1/2 to 1 full page in length, but it can be longer if you have more to say.",
+      "maxPoints": 100.0,
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "assignedGrade": 100.0,
+        "state": "RETURNED",
+        "assignmentSubmission": {
+          "attachments": [{
+            "driveFile": {
+              "id": "1vfT9UeygX8cVZh1v_t5tH1TsTYu_5lqqSRwSeZf9sBE",
+              "title": "Eric Zhou - Requirement 11",
+              "alternateLink": "https://docs.google.com/document/d/1vfT9UeygX8cVZh1v_t5tH1TsTYu_5lqqSRwSeZf9sBE/edit?usp\u003ddrive_web",
+              "thumbnailUrl": "https://lh3.google.com/Hkh0b15oZbQwymLf5IO-BDUkdBrv914ELVG8P6IcWCJLcNOZ4zlzj2VwGEnc327cL_shGzr86CLuRcNtsTT1RcHEP7v8VDs0OI-1\u003ds200"
+            }
+          }]
+        }
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Charles R Hayden"
+      }
+    },
+    "creationTime": "2022-05-13T00:33:10.305Z",
+    "updateTime": "2022-05-24T01:04:07.849Z",
+    "publicationTime": "2022-05-24T01:04:07.578Z",
+    "state": "PUBLISHED",
+    "topics": [{
+      "name": "Real World Applications"
+    }],
+    "courseWork": {
+      "title": "Requirement 9 Discussion Thread",
+      "description": "Document and discuss three or more areas in your life outside of Scouting where you feel you can actively provide stronger leadership in each of the following:\n\na. Making others feel included.\nb. Practicing active listening.\nc. Creating an environment where others feel comfortable to share their ideas\nand perspectives.\nd. Helping others feel valued for their input and suggestions.\ne. Standing up for others.\n\nPlease reply to at least 1 other scout\u0027s post.",
+      "maxPoints": 100.0,
+      "workType": "SHORT_ANSWER_QUESTION",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "shortAnswerSubmission": {
+          "answer": "a. Making others feel included: Making sure that no one is left out and that everyone is able to participate when playing sports, especially those that need teams. Since I often play with my friends, I can convince them to allow others to join in if they want to play.\nd. Helping others feel valued for their input and suggestions: This is especially important for robotics. Since it is a team activity, everyone\u0027s thoughts are important and have more suggestions raises the chance of an innovative idea. I am a senior member in my team and I try to prevent people from making fun of others\u0027 ideas and make sure we carefully consider everybody\u0027s thoughts.\ne. Standing up for others: This could be done pretty much anywhere but I will just say school because that\u0027s where I spend a large portion of my time. If people are talking about someone behind their back, I can speak up for them and talk about their positive aspects."
+        },
+        "comments": [{
+          "creator": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          },
+          "creationTime": "2022-06-20T05:36:26.202Z",
+          "updateTime": "2022-06-20T05:36:25.998Z",
+          "comment": "1. Sports: I often play sports with my friends at school. To make people feel included, I can invite others to play with us if I see them hanging around. We generally are all really chill and listen to each other and allow each other to share ideas for what to do and how to split teams, etc. Everyone\u0027s opinions are considered. I can also stand up and help people if they are not playing well or if it\u0027s just not their day by talking about what other sports they are good at or awesome plays they made in the past.\n2. Robotics: I am one of the senior members and lead the meetings. To include everyone, we do agendas and task lists and let people choose what they want to do so everyone can do what they want. I always make sure that everyone is paying attention and no one is made fun of for their ideas. We also carefully consider every suggestion and talk it over. I haven\u0027t needed to stand up for anyone but I will if necessary.\n3. Classes at school: I include others by talking with them during group conversations and inviting people without groups when doing group projects (assuming my group still has space). I definitely listen carefully but the environment is largely dependent on the class as a whole since all students are equal and the teacher has way more power. However, I make sure that at least I am being respectful and carefully consider what others think. Even if I disagree, I will still respond respectfully. Finally, I stand up for others when other people are ignoring them or are being disrespectful. However, this pretty much never happens.",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Charles R Hayden"
+            }
+          },
+          "creationTime": "2022-06-21T21:13:49.538Z",
+          "updateTime": "2022-06-21T21:13:49.223Z",
+          "comment": "Great responses Eric. When it comes to sports, how do/would you and your friends approach situations involving people of diverse gender identities? As I\u0027m sure you\u0027ve seen, gender equality in competitive sports can be a touchy subject, so what strategies could you implement to remain inclusive while being mindful of other people\u0027s opinions (assuming those concerns are within reason of course)? \n\n\n\n\nThe strategies in your robotics team/club seem really interesting. I definitely think those are positive ways to allow for greater inclusivity and by extension teamwork. How do you think your group would fair if these strategies weren\u0027t in place? \n\n\n\nI\u0027m glad you pointed out the perceived power imbalance between teachers and students. Sometimes this supposed difference can lead to abusive behaviors on the teachers part. How might you be able to stand up for yourself or others in a situation where a teacher is exhibiting discriminatory or prejudiced behavior?",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          },
+          "creationTime": "2022-06-21T21:24:08.184Z",
+          "updateTime": "2022-06-21T21:24:08.151Z",
+          "comment": "For sports, we can just choose team captains and have them alternate picking members. That way, everyone will be on a team and the teams will be relatively even even if there are skill differences or gender differences. Also, my friends and I are not extremely good at the sports we usually play either and we just play for fun so there\u0027s usually no problem including other people.\nFor robotics, without these strategies, I think we would be less productive and people would be less motivated to do the work they have. Also, some people would have nothing to do and would just be wasting their time. Finally, we would probably also miss some very good ideas.\nIf the teacher is purposefully discriminating against someone, I would probably bring the issue up to the principal and school board since they would have the power to influence the teacher. If the teacher might have accidently offended someone, I would just let the teacher know after class that what they said was offensive.",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Damon Le"
+            }
+          },
+          "creationTime": "2022-08-16T02:08:12.705Z",
+          "updateTime": "2022-08-16T02:08:12.526Z",
+          "comment": "I\u0027ve seen lots of talking behind others backs at my school without others even knowing. It is something we need to change and I\u0027m glad that you are speaking up for them.",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }]
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Charles R Hayden"
+      }
+    },
+    "creationTime": "2022-05-12T03:23:30.885Z",
+    "updateTime": "2022-05-24T01:04:04.817Z",
+    "publicationTime": "2022-05-24T01:04:04.539Z",
+    "state": "PUBLISHED",
+    "topics": [{
+      "name": "Real World Applications"
+    }],
+    "courseWork": {
+      "title": "Requirement 4 Discussion Thread",
+      "description": "Choose two of the three following scenarios and share what you could do as a Scout to demonstrate leadership and your understanding of what it means to help others who may seem different from you:\n\nScenario 1: While at camp, a youth accidentally spills food on another camper. The camper who gets spilled on gets angry and says something that is offensive to people with disabilities; their friends laugh. What could/ should you do?\n\nScenario 2: Your friend confides in you that some students in school are making insulting comments about one of their identities, and that those same students created a fake social media account to impersonate your friend online and post messages. What could/should you do?\n\nScenario 3: A new student in your class was born in another country (or has a parent who was born in another country). Your friends make rude comments to the student about their speech or clothes and tell the student to “go back home where you came from.” What could/should you do?\n\nIn your post please indicate which scenarios you chose and explain how you would approach it using what you have learned from the previous discussions. Once you have made a post please reply to at least 1 other scout\u0027s post and engage with at least 1 reply to your own post.",
+      "maxPoints": 100.0,
+      "workType": "SHORT_ANSWER_QUESTION",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "shortAnswerSubmission": {
+          "answer": "Scenario 1: I would acknowledge that having food spilled on you sucks but also tell them that they are better than that and that it is not okay to use offensive slurs.\nScenario 2: Cyberbullying is a major problem and I would talk with my friend and get them to report it to a trusted adult as well since they would have more authority. I can also try talking to those students but I think getting an adult would be more effective."
+        },
+        "comments": [{
+          "creator": {
+            "name": {
+              "fullName": "Charles R Hayden"
+            }
+          },
+          "creationTime": "2022-06-20T01:22:32.557Z",
+          "updateTime": "2022-06-20T01:22:32.293Z",
+          "comment": "These are excellent strategies to deal with these kinds of scenarios. However while slurs and some other language can be explicitly inappropriate, and quite jarring to hear at times, how might you tackle Scenario 1 if the what was said was more subtle and not necessarily as easy to call out?\n\nI thinks also great that you acknowledged that even though we should all try to be upstanders, not everyone has the authority to dictate what others do or say, so its important to protect yourself just as much as it is to protect victims. But even just doing something as simple as anonymously reporting these situations can be important because it shows the victim that at least 1 other person saw what happened and cared about fixing it.",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          },
+          "creationTime": "2022-06-20T05:08:14.657Z",
+          "updateTime": "2022-06-20T05:08:14.424Z",
+          "comment": "If the situation was more subtle but someone was still offended, I would probably talk to the person privately and say that what they said is a bit offensive and to avoid it in the future. That way, they are less embarrassed but could still fix that problem.",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Damon Le"
+            }
+          },
+          "creationTime": "2022-08-09T05:49:11.800Z",
+          "updateTime": "2022-08-09T05:49:11.627Z",
+          "comment": "I agree that you should acknowledge and take into account both perspectives in the first case as it would be really frustrating to have food spilled on you.",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }]
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Charles R Hayden"
+      }
+    },
+    "creationTime": "2022-05-12T03:09:30.858Z",
+    "updateTime": "2022-05-24T01:04:02.265Z",
+    "publicationTime": "2022-05-24T01:04:01.972Z",
+    "state": "PUBLISHED",
+    "topics": [{
+      "name": "Real World Applications"
+    }],
+    "courseWork": {
+      "title": "Requirement 3b:",
+      "description": "List three examples of ethical decisions you might have to make in the future at school, at home, in the workplace, or in your community, and what you would do. Share how your actions represent alignment with the Scout Oath and Scout Law.\n\nAgain, not looking for much, just a bulleted list with an explanation of each point is fine.",
+      "maxPoints": 100.0,
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "assignmentSubmission": {
+          "attachments": [{
+            "driveFile": {
+              "id": "1IiaRrSIhsVipg1d2vAeOit-HRhsD9XFnfbPs0d7JQhQ",
+              "title": "Eric Zhou - Requirement 3b",
+              "alternateLink": "https://docs.google.com/document/d/1IiaRrSIhsVipg1d2vAeOit-HRhsD9XFnfbPs0d7JQhQ/edit?usp\u003ddrive_web",
+              "thumbnailUrl": "https://lh3.google.com/0Zg6_Vcaev3n3K4oMF2eIpjY4v1_HKLicR9uQsdGkVHiLVd8fxhpWyqa5zJt8Vi3FFBO3zmrz-4_4_Jn8zzi8VbW5070_j2RHmzB\u003ds200"
+            }
+          }]
+        }
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Charles R Hayden"
+      }
+    },
+    "creationTime": "2022-05-12T04:16:36.207Z",
+    "updateTime": "2022-05-24T01:03:59.553Z",
+    "publicationTime": "2022-05-24T01:03:59.259Z",
+    "state": "PUBLISHED",
+    "topics": [{
+      "name": "Requirement 7 Interview"
+    }],
+    "courseWork": {
+      "title": "Requirement 7 Discussion Thread",
+      "description": "Please provide a brief summary of the person you interviewed or researched. This summary does not have to be as detailed as your main submission.",
+      "maxPoints": 100.0,
+      "workType": "SHORT_ANSWER_QUESTION",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "shortAnswerSubmission": {
+          "answer": "I interviewed my teacher who is in charge of equity and inclusion. He is African American and faced discrimination first-hand very early on. However, he was able to receive support from teachers and other trusted adults and that inspired him to help provide a comfortable learning environment for all students. He said it\u0027s important to never get discouraged by others\u0027 opinions but work hard and focus on your own goals."
+        }
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Charles R Hayden"
+      }
+    },
+    "creationTime": "2022-05-12T04:06:57.850Z",
+    "updateTime": "2022-06-20T01:39:27.160Z",
+    "publicationTime": "2022-05-24T01:03:56.488Z",
+    "state": "PUBLISHED",
+    "topics": [{
+      "name": "Requirement 7 Interview"
+    }],
+    "courseWork": {
+      "title": "Requirement 7:",
+      "description": "Identify and interview an individual in your community, school, and/or Scouting who has had a significant positive impact in promoting diversity, equity, and inclusion. If you feel your community, school, or local Scouting group does not have such an individual, then research a historical figure who meets these criteria.\n\n\nIf you are going to research a historical figure instead please let me know ahead of time and tell me who you intend to research. Although I would highly encourage you to find someone to interview instead, you never know what kind of advocacy work people do behind the scenes (sometimes even family members).\n\nThis is the requirement where I am expecting the most detail, be sure to take notes when interviewing/researching the person and provide detailed answers to the questions below. \n\na. What inspired your person? What challenges did they face? What factors allowed them to succeed?\n\nb. What did you learn from this person and how can you apply that knowledge to your own life?",
+      "maxPoints": 2.0,
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "assignedGrade": 2.0,
+        "state": "RETURNED",
+        "assignmentSubmission": {
+          "attachments": [{
+            "driveFile": {
+              "id": "1OT9QV3ddLKh3Tg9PH_prKmwa0v1bkpWJFl0kdE-88tg",
+              "title": "Eric Zhou - Requirement 7",
+              "alternateLink": "https://docs.google.com/document/d/1OT9QV3ddLKh3Tg9PH_prKmwa0v1bkpWJFl0kdE-88tg/edit?usp\u003ddrive_web",
+              "thumbnailUrl": "https://lh3.google.com/XuVFMF0q_CainzIHcmoE2e3es1XxTQeQEvG2o5bCa9ATDCaEO1-47wwozEDlkioHHXniC7XvHuA1Krz1-e8ZXBMnU3z52QTL_sbj\u003ds200"
+            }
+          }]
+        }
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Charles R Hayden"
+      }
+    },
+    "creationTime": "2022-05-13T00:53:33.415Z",
+    "updateTime": "2022-05-24T01:03:53.930Z",
+    "publicationTime": "2022-05-24T01:03:53.632Z",
+    "state": "PUBLISHED",
+    "topics": [{
+      "name": "Inclusion \u0026 Discrimination"
+    }],
+    "courseWork": {
+      "title": "Requirement 10 Discussion Thread:",
+      "description": "Discuss how stereotyping people can be harmful, and how stereotypes can lead to prejudice and discrimination. Share ideas you have for challenging assumptions and celebrating individuality.\n\nWhat this is essentially asking is: What are the effects of stereotyping, and how can we combat them.\n\nPlease submit at least 1 discussion post and reply to at least 1 other.",
+      "maxPoints": 100.0,
+      "workType": "SHORT_ANSWER_QUESTION",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "shortAnswerSubmission": {
+          "answer": "Stereotypes are generally created through overgeneralization where some commonality between some members of a group becomes a trait associated with a group. They are very harmful since this commonality is almost never shared amongst every member of the group and basing your opinion of someone based on assumptions can cause many problems. Also, if these traits are negative, this can easily lead to prejudice as the whole group would be associated with something bad.\nTo combat them, it is important to educate people about stereotypes and the harm of judging someone based on your own assumptions. It is important to get to know someone and interact with them before making your judgement on them."
+        },
+        "comments": [{
+          "creator": {
+            "name": {
+              "fullName": "Charles R Hayden"
+            }
+          },
+          "creationTime": "2022-06-20T01:49:40.920Z",
+          "updateTime": "2022-06-20T01:49:40.653Z",
+          "comment": "All great things! What are some ways we can help people challenge their own pre-conceived notions about a particular group?",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          },
+          "creationTime": "2022-06-20T05:38:08.166Z",
+          "updateTime": "2022-06-20T05:38:07.931Z",
+          "comment": "An easy way is to just show them someone who does belong to a group but does not fit the stereotype about that particular group. Other ways could be using studies and statistics or even just trying to talk it through with them.",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Damon Le"
+            }
+          },
+          "creationTime": "2022-08-16T02:42:29.094Z",
+          "updateTime": "2022-08-16T02:42:28.919Z",
+          "comment": "I agree that it is important to educating others while looking from their perspective, kindly pointing out their flaws. We must work together if we want change.",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }]
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Charles R Hayden"
+      }
+    },
+    "creationTime": "2022-05-13T00:29:17.240Z",
+    "updateTime": "2022-05-24T01:03:50.925Z",
+    "publicationTime": "2022-05-24T01:03:50.627Z",
+    "state": "PUBLISHED",
+    "topics": [{
+      "name": "Inclusion \u0026 Discrimination"
+    }],
+    "courseWork": {
+      "title": "Requirement 8 Discussion Thread",
+      "description": "With the help of your parent or guardian, study an event that had a positive outcome on how society viewed a group of people and made them feel more welcome. Describe the event and what you learned.\n\nIn your description please include:\nThe name of the event\nWhen it took place\nWhere it took place\nWhat group it pertains to\nKey figures\nAt least 1 source\n\nPlease also reply to at least 1 other scout\u0027s post of an event you have not heard of before, or don\u0027t know much about.",
+      "maxPoints": 100.0,
+      "workType": "SHORT_ANSWER_QUESTION",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "shortAnswerSubmission": {
+          "answer": "Brown v. Board is a famous landmark Supreme court case that happened in 1954. In 1896, the Supreme Court previous ruled that racial segregation was legal as long as the facilities were equal in quality. For this court case, Oliver Brown filed a suit against the Board of Education of Topeka, Kansas, in 1951 after his daughter was denied from an all-white elementary school that was way closer and a lot safer than the school she would otherwise attend. He argued that this violates the equal protection clause of the 14th amendment. After losing in the Kansas district court, this case was combined with 4 other related cases before it came to the Supreme court. In the end, there was an unanimous verdict against school segregation led by Chief Justice Earl Warren.\n\nSource: https://www.history.com/topics/black-history/brown-v-board-of-education-of-topeka"
+        },
+        "comments": [{
+          "creator": {
+            "name": {
+              "fullName": "Charles R Hayden"
+            }
+          },
+          "creationTime": "2022-06-20T01:43:24.620Z",
+          "updateTime": "2022-06-20T01:43:24.236Z",
+          "comment": "A great choice of events. Brown was a very important turning point in the legal history of America. But how did it impact african-americans in the aftermath? What challenges did they face in trying to uphold the decision?",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          },
+          "creationTime": "2022-06-20T05:23:06.967Z",
+          "updateTime": "2022-06-20T05:23:06.786Z",
+          "comment": "There were definitely many problems afterwards. One of the main things I remember is Little Rock Nine, where African American students going to a previously all-white school were blocked by angry White families and had to have the national guard escort them in and still faced heavy discrimination inside. However, as time passed and things progressed, the situation, although still not perfect, did improve a lot.\nSource: History class :)",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Damon Le"
+            }
+          },
+          "creationTime": "2022-08-16T01:49:01.052Z",
+          "updateTime": "2022-08-16T01:49:00.871Z",
+          "comment": "It\u0027s incredible to see the amount of persistence that Brown had shown. Even after being denied he didn\u0027t give up for what he believed was right.",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }]
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Charles R Hayden"
+      }
+    },
+    "creationTime": "2022-05-12T03:43:57.114Z",
+    "updateTime": "2022-06-20T01:36:57.411Z",
+    "publicationTime": "2022-05-24T01:03:47.828Z",
+    "state": "PUBLISHED",
+    "topics": [{
+      "name": "Inclusion \u0026 Discrimination"
+    }],
+    "courseWork": {
+      "title": "Requirement 6",
+      "description": "Due to the more personal nature of this requirement it will not be an open thread. \n\nIt may be easiest to connect with another scout from this class, or someone from your own troop. When communicating with someone else be sure to follow the proper YPT and Cyber Chip guidelines, especially if you don\u0027t know the person. \n\nWhen writing your responses please do not include the actual name of the person you talked to. I am expecting a bit more for this requirement so be detailed, especially for parts b \u0026 c.\n\n\nWith your parent’s or guardian’s approval, connect with another Scout or youth your own age who has an identity that’s different from yours. (This means a trait, belief, or characteristic different from you.)\n\na. How was this person\u0027s identity different from your own (you can provide information about your own identity for greater context if you so choose, but it is not required or expected)?\n\nb.\nOPTION 1: What was the situation the other person described, how did it make them feel? How did it make you feel to learn about it? What would you have done in their shoes?\nOPTION 2: How did the other person respond to the following fictional scenario:\nYou’re attending a new school and don’t know anyone there yet. You notice they dress very differently than you do. At lunchtime, you decide you’ll try to sit with a group to get to know other students. People at two tables tell you there is someone sitting at the currently empty seat at their table, so you end up eating by yourself.\n\n\nc. Provide a brief summary of what you learned from the other scout, about 3-5 sentences.",
+      "maxPoints": 3.0,
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "assignedGrade": 3.0,
+        "state": "RETURNED",
+        "assignmentSubmission": {
+          "attachments": [{
+            "driveFile": {
+              "id": "1Zn7ZrZI8rceKqdpMf51eIQTYzkmuYHlHt_Uwct1YmLk",
+              "title": "Eric Zhou - Requirement 6",
+              "alternateLink": "https://docs.google.com/document/d/1Zn7ZrZI8rceKqdpMf51eIQTYzkmuYHlHt_Uwct1YmLk/edit?usp\u003ddrive_web",
+              "thumbnailUrl": "https://lh3.google.com/-7Q5JzdT4GSbH4raj5BgFVyqb9nZUnAoIj2T-f3AW4txv4s96JypxYrQRQWK-GSDyVF7DHS8987ffbzTioY7QSdmor5N78I66AMx\u003ds200"
+            }
+          }]
+        }
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Charles R Hayden"
+      }
+    },
+    "creationTime": "2022-05-12T03:36:03.744Z",
+    "updateTime": "2022-05-24T01:03:44.962Z",
+    "publicationTime": "2022-05-24T01:03:44.667Z",
+    "state": "PUBLISHED",
+    "topics": [{
+      "name": "Inclusion \u0026 Discrimination"
+    }],
+    "courseWork": {
+      "title": "Requirement 5 Discussion Thread",
+      "description": "Please provide at least 1 post to this thread that includes the following:\na. Ideas on what you personally can do to create a welcoming environment in your Scouting unit.\n\nb. An experience you had in which you went out of your way to include another Scout(s) and what you did to make them feel included and welcomed.\n\nc. Things you can do to help ensure all Scouts in your unit are given an opportunity to be heard and included in decision-making and planning.\n\nPlease also reply to at least 1 other scout.",
+      "maxPoints": 100.0,
+      "workType": "SHORT_ANSWER_QUESTION",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "shortAnswerSubmission": {
+          "answer": "a. Since I am currently Troop Guide, I would help younger scouts with their requirements and also getting to know others and working with their patrol.\nb. Once, there was a new scout that was sitting alone since they did not know what patrol they were assigned to. I guided him to the right place and introduced him to his patrol members. I also made sure that he took part in the activities and was not feeling uncomfortable. His patrol leader is a really nice guy so everything went well.\nc. Since I am in the senior patrol, I should listen to what the other scouts suggest and bring it up during senior patrol planning meetings or help them with contacting adults."
+        },
+        "comments": [{
+          "creator": {
+            "name": {
+              "fullName": "Charles R Hayden"
+            }
+          },
+          "creationTime": "2022-06-20T01:33:02.813Z",
+          "updateTime": "2022-06-20T01:33:02.449Z",
+          "comment": "Great responses! Just remember that inclusivity is more than just welcoming younger scouts. Sometimes new members of your troop may be considered an older scout but will still need help settling in, even if they are just transferring in from another troop, or if they are completely new.\n\nHow might you be able to apply these strategies to a scout that is being excluded because of their identity?",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          },
+          "creationTime": "2022-06-20T05:11:47.876Z",
+          "updateTime": "2022-06-20T05:11:47.621Z",
+          "comment": "That makes sense. My answer was mainly based on my troop and we haven\u0027t really had any senior scouts transfer in. But there definitely have been some older scouts that joined and we were able to help them integrate into the troop.\nMy Troop does really well with diverse scouts and we haven\u0027t really had any problems like that. However, if a scout was being excluded, I would try to get them to familiarize themselves with their patrol and make sure that they are comfortable with the other people. I would also get the patrol leader to watch over them to make sure they are doing well. If there are other problems like discrimination, I would talk to the scout leaders and the scouts as well.",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Damon Le"
+            }
+          },
+          "creationTime": "2022-08-09T14:59:46.356Z",
+          "updateTime": "2022-08-09T14:59:46.229Z",
+          "comment": "Helping newer scouts start off with their requirement really goes a long way. It is something that my troop is actually lacking in right now since we lost many members over covid and we aren\u0027t very organized yet.",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }]
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Charles R Hayden"
+      }
+    },
+    "creationTime": "2022-05-12T03:11:21.573Z",
+    "updateTime": "2022-05-24T01:03:41.757Z",
+    "publicationTime": "2022-05-24T01:03:41.489Z",
+    "state": "PUBLISHED",
+    "topics": [{
+      "name": "Ethical Decision Making"
+    }],
+    "courseWork": {
+      "title": "Requirement 3c Discussion Thread: Reflection",
+      "description": "How do you plan to use what you have learned to assist you when that time comes, and what action(s) you can take to serve as an upstander and help other people at all times?\n\nPlease also provide a short reflection regarding what you have learned about leadership and ethical decision making.",
+      "maxPoints": 100.0,
+      "workType": "SHORT_ANSWER_QUESTION",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "shortAnswerSubmission": {
+          "answer": "Scouting definitely helps teach leadership skills and guides us into making ethical decisions. I have learned that a capable and ethical leader will get the best results for the group. Also, the Scout Law and Oath guide us towards the most ethical decision, which is the choice that is most beneficial overall. In the future, I will keep my values as well as the Scout Law and Oath in mind when making difficult decisions and try my best to get the optimal outcome."
+        },
+        "comments": [{
+          "creator": {
+            "name": {
+              "fullName": "Charles R Hayden"
+            }
+          },
+          "creationTime": "2022-06-20T01:16:41.118Z",
+          "updateTime": "2022-06-20T01:16:40.864Z",
+          "comment": "Thank you for your answer. If you could just touch on the \"upstander\" portion of the requirement a bit more that would be appreciated. What kind of situations might you face that would require the kind of action you\u0027ve learned about?",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          },
+          "creationTime": "2022-06-20T05:04:57.329Z",
+          "updateTime": "2022-06-20T05:04:57.094Z",
+          "comment": "Upstander is someone who tries their best to do the right thing. Therefore, trying to help others and following the Scout Law and Oath could contribute to being an upstander. The other portion would be being willing to confront people and step out of my comfort zone to truly try my best. \nAn example situation could be someone saying mean things about someone else where I could stand up for them using the communication skills and knowledge of what to say in these situations that I learned.",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }]
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Charles R Hayden"
+      }
+    },
+    "creationTime": "2022-05-12T03:04:33.585Z",
+    "updateTime": "2022-05-24T01:03:39.179Z",
+    "publicationTime": "2022-05-24T01:03:38.887Z",
+    "state": "PUBLISHED",
+    "topics": [{
+      "name": "Ethical Decision Making"
+    }],
+    "courseWork": {
+      "title": "Requirement 3a Discussion Thread: Ethical Decisions",
+      "description": "Same rules as the discussion thread for requirement 2. Feel free to participate as much as you want beyond the minimum that I\u0027ve specified.\n\nThink about a time you faced an ethical decision. Discuss the situation, what you did, and how it made you feel. Share if you would do anything differently in the future and if so, what that would be.",
+      "maxPoints": 100.0,
+      "workType": "SHORT_ANSWER_QUESTION",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "shortAnswerSubmission": {
+          "answer": "Somebody forgot to click done after using a vending machine with their credit card so anyone could buy stuff and it would still charge to their card. I decided to help them click the button and use my own money to buy snacks. I was pretty young at the time so I was kind of sad that I had to use my money but I was happy that the college student didn\u0027t get scammed. If this were to happen again, I think I would act a bit quicker and also tell that person that they forgot so they know what happened and hopefully won\u0027t make the same mistake again."
+        },
+        "comments": [{
+          "creator": {
+            "name": {
+              "fullName": "Charles R Hayden"
+            }
+          },
+          "creationTime": "2022-06-20T01:13:29.045Z",
+          "updateTime": "2022-06-20T01:13:28.645Z",
+          "comment": "Im glad you pointed out that at the time, making the right decision made you unhappy. Does this have to be the case for all ethical decisions? Similarly, do you think its worth it to sacrifice our happiness in the moment to make the right call?",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          },
+          "creationTime": "2022-06-20T04:34:24.926Z",
+          "updateTime": "2022-06-20T04:34:24.677Z",
+          "comment": "I don\u0027t think making the ethical decision will always lead to unhappiness. Although many times it requires people to step outside of their comfort zone and confront others, they are rewarded with a sense of accomplishment and happiness from helping someone else. Also, I personally think it is worth it to make the right call even if it makes me a bit unhappy since the victim would probably feel even worse. In my case, although I didn\u0027t get free snacks, it didn\u0027t matter too much since I did not expect to get free things anyways. However, if I had used a ton of someone else\u0027s money, they would probably be very sad that they lost so much. Finally, there\u0027s the golden rule \"do unto others as you would have them to do unto you\" and the Scout Law and Oath. It is better to treat others kindly and help them out. You never know when you will be on the other side and relying on a stranger to make the ethical decision.",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Damon Le"
+            }
+          },
+          "creationTime": "2022-08-09T05:46:38.709Z",
+          "updateTime": "2022-08-09T05:46:38.692Z",
+          "comment": "We all live in one society and if we all pitch in and do our part everything would be so much better. Props to you for doing just that at such a young age.",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }]
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Charles R Hayden"
+      }
+    },
+    "creationTime": "2022-05-12T02:58:40.698Z",
+    "updateTime": "2022-05-24T01:03:36.084Z",
+    "publicationTime": "2022-05-24T01:03:35.815Z",
+    "state": "PUBLISHED",
+    "topics": [{
+      "name": "Ethical Decision Making"
+    }],
+    "courseWork": {
+      "title": "Requirement 2 Discussion Thread: Leadership",
+      "description": "Please submit at least 1 post to this discussion that fulfills each part of the requirement. One part of your answer should be about leadership and ethical decision making, and the second part should be about the person you decided to research. \n\nOnce you have submitted one answer please reply to one or more other scouts\u0027 answers with your own thoughts. You can continue to participate as much as you want, and I will also be posting in this discussion so feel free to reply to my comments as well.\n\nDocument and discuss what leadership means to you. Share what it means to make ethical decisions.\n\na. Research and share with your counselor an individual you feel has demonstrated positive leadership while having to make an ethical decision.  (It could be someone in history, a family member, a teacher, a coach, a counselor, a clergy member, a Scoutmaster, etc.)\n\nb. Explain what decision and/or options that leader had, why you believe they chose their final course of action, and the outcome of that action.\n\nPlease include sources.",
+      "maxPoints": 100.0,
+      "workType": "SHORT_ANSWER_QUESTION",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "shortAnswerSubmission": {
+          "answer": "To me, leadership means guiding a group of people to efficiently collaborate and accomplish a certain task. Ethical decision making is choosing the most morally correct option. When relating it to leadership, the first thing I think of is prioritizing the whole group and not just yourself or an individual.\n\nThe person I researched was Mahatma Gandhi. India was under oppressive British rule and Gandhi was one of the key leaders aiming for freedom. Rather than choosing violence and warfare, Gandhi used a nonviolent non-cooperative campaign strategy to protest. He told his followers to not use violence and led by example, getting arrested numerous times and starving himself for weeks. I believe that Gandhi chose this method to reduce damages to both side and to take the suffering upon himself (with the hunger strikes and fasting) for the benefit of the whole. Although the members of peaceful protests were beaten and killed, the overall number of deaths is far less than if there had been an all-out war. In the end, India and Pakistan were able to achieve independence from Britain.\nSource: https://www.history.com/topics/india/mahatma-gandhi"
+        },
+        "comments": [{
+          "creator": {
+            "name": {
+              "fullName": "Charles R Hayden"
+            }
+          },
+          "creationTime": "2022-06-20T01:10:23.794Z",
+          "updateTime": "2022-06-20T01:10:23.447Z",
+          "comment": "Eric, I like your explanation of leadership, I might steal that. I also find your thinking behind ethical decision making interesting, everyone has different moral standards and what is moral to one may be immoral to another. Could you briefly touch on that?\n\nWhat do you think may have happened had Ghandi chosen a violent movement? As you may know, the partition of India was quite violent after independence was achieved, which led to Ghandi\u0027s assassination. Is there a course of action he could have taken to prevent that? Or do you think things may have been worse if he chose another path?",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          },
+          "creationTime": "2022-06-20T04:59:49.046Z",
+          "updateTime": "2022-06-20T04:59:48.795Z",
+          "comment": "Regarding ethics, I think certain moral standards are shared but there are definitely different beliefs. When an important decision comes up, I think it is best to just do what you believe is best. However, it is also important to be open to new ideas and change. \n\nIf Gandhi chose a violent movement, the number of casualties on both sides would have been a lot higher. It was clear the Britain had stronger military power at the time. In fact, in a revolt in 1857, where at least 100,000 Indian soldiers were slaughtered and caused up to 10 million deaths over the 10 years afterwards. Although there were still deaths, this level of tragedy definitely did not reoccur during the peaceful protests. \nSource: https://www.theguardian.com/world/2007/aug/24/india.randeepramesh\n\nAs for the assassination, Gandhi was killed by a fellow Hindu who was enraged that Gandhi was negotiating with Muslims. I think there was not much to be done other than increase security and trying to convince people to be more accepting. Gandhi was trying to maintain peace between Hindus and Muslims, which is the best choice, but someone who was too narrow-mind was not happy with that. Although this is a huge loss, Nathuram Godse, the assassin, was brought to trial and executed. Also, he is forever remembered as the fool who killed a hero and one of the most influential people to ever exist.\nSource: https://www.history.com/topics/india/mahatma-gandhi",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Damon Le"
+            }
+          },
+          "creationTime": "2022-08-09T05:42:56.933Z",
+          "updateTime": "2022-08-09T05:42:56.706Z",
+          "comment": "Hey Eric, I agree with you on how leadership is about prioritizing the group as a whole. Many times leaders would prioritize only themselves and not others. Also your research on Gandhi was very interesting and I learned quite a few things.",
+          "state": "PUBLISHED",
+          "commentVisibility": "COURSE"
+        }]
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Charles R Hayden"
+      }
+    },
+    "creationTime": "2022-05-12T03:15:06.052Z",
+    "updateTime": "2022-05-14T00:50:19.857Z",
+    "publicationTime": "2022-05-14T00:49:50.404Z",
+    "state": "PUBLISHED",
+    "topics": [{
+      "name": "Introduction"
+    }],
+    "courseWork": {
+      "title": "Requirement 1 Discussion Thread: Important Terms",
+      "description": "Please submit at least 1 post to this thread with your definitions. Feel free to reply to each other and comment on other scout\u0027s answers.\n\nResearch the following terms, and then explain to your merit badge counselor how you feel they relate to the Scout Oath and Scout Law:\n\n• Identities \n• Inclusion\n• Diversity \n• Discrimination\n• Equity \n• Equality (How is this different from equity? Why are they both important?)\n• Ethical Leadership\n• Upstander\n\nPlease include a short definition for each and how they apply to scouting. I\u0027m not looking for a lot, just 1-2 sentences per bullet is fine as well as links to sources.",
+      "maxPoints": 8.0,
+      "workType": "SHORT_ANSWER_QUESTION",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "assignedGrade": 8.0,
+        "state": "RETURNED",
+        "shortAnswerSubmission": {
+          "answer": "Identity: Distinguishing character or personality of an individual. Each scout has their identity and scouting can be part of our identity as well.\nInclusion: The act of taking in as a part of a group or whole. Including people in discussions and making people feel comfortable during scouting is important.\nDiversity: Inclusion of different people in a group. Difference can be cultural, racial, etc. Troops can be diverse and diverse groups generally get to see things from other perspectives and have more variety in their ideas.\nDiscrimination: Prejudiced thoughts, actions, or treatment. Discrimination is a problem and should be kept out of scouting.\nEquity: Fair treatment based on circumstances. Helping younger scouts that need more help and encouraging older scouts.\nEquality: Same for each member and individual regardless of identity. While equality equality ensures the same opportunities, equity takes into account disadvantages and differences. They are important for different scenarios and sometimes are both necessary. In scouting, equality could be making sure that everyone has the opportunity to sign up for a campout and not giving certain scouts an advantage.\nEthical Leadership: Leadership that conforms to the moral standard. Acting with integrity and leading by example. Leadership is a key part of BSA and ethical leadership is the best way of leading.\nUpstander: Individual who tries their best to do the right thing. Scouts should follow the Scout Oath and Law and strive to be an upstander and do the right thing.\nSource: Merriam webster definitions combined with my thoughts"
+        }
+      }]
+    }
+  }]
+}

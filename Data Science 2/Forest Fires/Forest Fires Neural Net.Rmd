@@ -1,0 +1,163 @@
+---
+title: "Neural Network on Forest Fires"
+output: html_notebook
+---
+Used the resources provided and my own knowledge:
+<br>
+https://datascienceplus.com/neuralnet-train-and-test-neural-networks-using-r/
+<br>
+
+## Start
+### Loading Libraries and Data
+```{r}
+# load packages
+suppressWarnings(library(tidyverse)) #for ggplot and dplyr
+library(corrplot) #for correlation plots
+library(rattle)
+library(caTools)
+library(neuralnet)
+```
+
+```{r}
+setwd("C:/Users/ezhou/OneDrive - Eastside Preparatory School/Documents/Eric/2022 - 2023/1 Fall/A Data Science/Forest Fires")
+forestRaw <- read.csv("forestfires.csv")
+```
+
+
+### Data Preprocessing
+```{r}
+# summary(forestRaw)
+forestNum <- forestRaw %>% select(-month, -day)
+corrs <- cor(forestNum)
+corrplot(corrs, order = 'hclust', addrect = 2)
+
+# RMSE function
+myRMSE <- function(pred, obs) {
+  return(sqrt(mean((pred - obs) ^ 2, na.rm = TRUE)))
+}
+
+# Max-Min Normalization
+normalize <- function(x) {
+ return ((x - min(x)) / (max(x) - min(x)))
+}
+
+# Denormalizing 
+denormalize <- function(x, y) {
+  return (y * (max(x) - min(x)) + min(x))
+}
+
+```
+
+```{r}
+forestNum <- forestNum %>% mutate(logArea = log(area+1))
+forestNum <- forestNum %>% select(-area)
+# head(forestNum)
+maxmindf <- as.data.frame(lapply(forestNum, normalize))
+# summary(forestNum)
+```
+
+## Neural Networks
+Neural Networks were originally created to replicate human brain functions with layers of nodes that are connected. The input layer has one node for each normalized feature, going through the layers multiplying by weights and adding biases. During training, the weights and biases are tuned to through backward propogation (aka a lot of math) to try to fit the data as good as possible.
+
+### Splitting Data
+```{r}
+set.seed(49301) # keeping the same seed as the other file
+ind <- sample.split(Y=maxmindf, SplitRatio=0.8)
+trainData <- maxmindf[ind,]
+testData <- maxmindf[-ind,]
+# head(trainData)
+```
+
+### Training NN
+```{r}
+start <- Sys.time() 
+nn <- neuralnet(logArea ~ FFMC + ISI + temp + DMC + DC + wind + RH + rain + X + Y, data=trainData, hidden=c(5, 3), linear.output=TRUE, threshold=0.01)
+# nn$result.matrix
+plot(nn)
+end <- Sys.time()
+(time <- end - start)
+```
+Ran pretty slowly, took ~15 seconds to train.
+
+
+### Checking results
+```{r}
+predicted=denormalize(forestNum$logArea, predict(nn, testData))
+actual=denormalize(forestNum$logArea, testData$logArea)
+myRMSE(predicted, actual)
+```
+Without tuning, the RMSE is currently 1.265845, but I hope I can reduce it by a lot.
+
+### Tuning 1 hidden layer of nodes
+```{r}
+set.seed(49301)
+start <- Sys.time()
+test_rmse <- NULL
+actual=denormalize(forestNum$logArea, testData$logArea)
+for (j in 1:9) {
+  nn1 <- neuralnet(logArea ~ FFMC + ISI + temp + DMC + DC + wind + RH + rain + X + Y, data=trainData, hidden=c(j), linear.output=TRUE, threshold=0.01)
+  pred=denormalize(forestNum$logArea, predict(nn1, testData))
+  test_rmse[j] <- myRMSE(pred, actual)
+}
+print(which.min(test_rmse))
+test_rmse
+```
+Ran this a couple times but overall it seems pretty random and the numbers are always around 1.25 - 1.3.
+
+
+```{r}
+singleDF <- data.frame(count = c(1:9), rmses = test_rmse)
+ggplot(singleDF) +
+  geom_point(aes(x=count, y = rmses)) +
+  ggtitle("RMSE as # of Nodes Increases")
+end <- Sys.time()
+(time <- end - start)
+```
+Plot does kind of have a pattern. There's a slow decrease as nodes increase but alsoan outlier and a lot of variation Took a while to run (2.06 mins).
+
+### Tuning 2 hidden layers of nodes
+```{r}
+set.seed(49301)
+start <- Sys.time()
+test_rmse2 <- NULL
+actual=denormalize(forestNum$logArea, testData$logArea)
+for (j in 1:9){
+  for (k in 1:9) {
+    nn2 <- neuralnet(logArea ~ FFMC + ISI + temp + DMC + DC + wind + RH + rain + X + Y, data=trainData, hidden=c(j, k), linear.output=TRUE, threshold=0.025)
+    # plot(nn2)
+    pred2=denormalize(forestNum$logArea, predict(nn2, testData))
+    test_rmse2[j * 10 + k] <- myRMSE(pred2, actual)
+  }
+}
+print(which.min(test_rmse2))
+print(test_rmse2[which.min(test_rmse2)])
+test_rmse2
+end <- Sys.time()
+(time <- end - start)
+```
+Took very long, 6.34 mins to run because I'm looping through making a ton of neural networks. This took so long to get working lol. Worst part is that it seems that the NN performed a lot worse than the other methods. My best decision tree got to ~1.33 and my best random forest was at ~0.93. The tuned XGBoost got all the way down to ~0.81. The NN seems to be stuck at above 1.1 (got to 1.160745), which I guess is still better than the decision tree and multilinear model.
+
+### Tuning 3 hidden layers of nodes
+```{r}
+set.seed(49301)
+start <- Sys.time()
+test_rmse3 <- NULL
+actual=denormalize(forestNum$logArea, testData$logArea)
+for (j in 9:1){
+  for (k in 9:1) {
+    for (l in 9:1) {
+    nn3 <- neuralnet(logArea ~ FFMC + ISI + temp + DMC + DC + wind + RH + rain + X + Y, data=trainData, hidden=c(j, k, l), linear.output=TRUE, threshold=0.05)
+    # plot(nn2)
+    pred3=denormalize(forestNum$logArea, predict(nn3, testData))
+    test_rmse3[l * 100 + j * 10 + k] <- myRMSE(pred3, actual)
+    }
+  }
+}
+print(which.min(test_rmse3))
+print(test_rmse3[which.min(test_rmse3)])
+test_rmse3
+end <- Sys.time()
+(time <- end - start)
+```
+Layers have 7, 9, and then 6. Got down to 1.067298 for RMSE, which is a tiny bit better than 2 layers. Still worse than random forest and XGBoost though.
+

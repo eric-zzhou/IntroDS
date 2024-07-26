@@ -1,0 +1,144 @@
+---
+title: "Tree Classification"
+output: html_notebook
+---
+Used the following resources and my own knowledge:
+<ol>
+  <li>[R Confusion Matrix](https://www.digitalocean.com/community/tutorials/confusion-matrix-in-r)</li>
+  <li>[Extracting Accuracy from Confusion Matrix](https://stackoverflow.com/questions/24348973/how-to-retrieve-overall-accuracy-value-from-confusionmatrix-in-r)</li>
+  <li>Figured out SVM for classification using the R documentation for svm function</li>
+</ol>
+
+# Start
+### Confusion Matrix: It is named this way because it is a matrix that clearly shows confusion/error during categorization. Shows actual results vs predicted results and which ones were confused with which.
+### Loading Libraries and Data
+```{r}
+# load packages
+suppressWarnings(library(tidyverse)) #for ggplot and dplyr
+library(corrplot) #for correlation plots
+library(rattle)
+library(caTools)
+library(caret)
+library(rpart)
+library(rpart.plot)
+library(e1071)
+```
+
+```{r}
+setwd("C:/Users/ezhou/OneDrive - Eastside Preparatory School/Documents/Eric/2022 - 2023/1 Fall/A Data Science/Classification")
+treeData <- read.csv("train.csv")
+```
+
+
+### Data Preprocessing
+```{r}
+treeData <- treeData %>% select(-Id)
+head(treeData)
+treeData[,11:ncol(treeData)] <-lapply(treeData[,11:ncol(treeData)], as.factor)
+treeData <- treeData %>% select(-Soil_Type7, -Soil_Type15)
+head(treeData)
+# str(treeData)
+```
+
+### Splitting Data
+```{r}
+set.seed(49301)
+ind <- sample.split(Y=treeData, SplitRatio=0.7)
+trainData <- treeData[ind,]
+testData <- treeData[-ind,]
+head(treeData)
+length(treeData$Elevation)
+```
+
+# Decision Tree
+### Basic Tree
+```{r}
+start1 <- Sys.time() # starting time
+tree <- rpart(Cover_Type~., data=trainData, method='class')
+end1 <- Sys.time() # Finishing time
+(time1 <- end1 - start1) # total time
+fancyRpartPlot(tree)
+```
+
+### Testing Basic Tree
+```{r}
+p1 <- predict(tree,testData,type="class")
+confusionMatrix(data=p1, reference=testData$Cover_Type)
+```
+
+### Tuning
+```{r}
+printcp(tree)
+pruned_model <- prune.rpart(tree,cp=0.0125)
+fancyRpartPlot(pruned_model)
+```
+
+```{r}
+p2 <- predict(pruned_model, testData, type="class")
+confusionMatrix(data=p2, reference=testData$Cover_Type)
+```
+
+Pruning made the model worse, lowering the accuracy from 0.6376 to 0.6201
+
+
+# Support Vector Machine
+### Base Model
+```{r}
+start <- Sys.time() 
+svm1 <- svm(Cover_Type ~ ., trainData, type="C-classification")
+end <- Sys.time()
+(time <- end - start)
+```
+
+### Base SVM Test
+```{r}
+p3 = predict(svm1, testData, type="class")
+confusionMatrix(data=p3, reference=testData$Cover_Type)
+```
+
+### Testing different type of classification
+```{r}
+svm2 <- svm(Cover_Type ~ ., trainData, type="nu-classification")
+p4 = predict(svm2, testData, type="class")
+confusionMatrix(data=p4, reference=testData$Cover_Type)
+```
+
+
+### Tuning
+```{r}
+set.seed(49301)
+start <- Sys.time()
+best <- c(0, -1, -1, -1)
+best_cm <- NULL
+for (j in 1:5){
+  for (k in 1:5) {
+    for (l in seq(0.1, 1, 0.1)){
+      svm3 <- e1071::svm(Cover_Type ~ ., trainData, cost=j, gamma=k, epsilon=l, type="C-classification")
+      p5 <- predict(svm3, testData, type="class")
+      cm <- confusionMatrix(data=p5, reference=testData$Cover_Type)
+      goodness <- cm$overall['Accuracy']
+      # print(goodness)
+      if (goodness > best[1]) {
+        best = c(goodness, j, k, l)
+        best_cm <- cm
+        print(best)
+      }
+    }
+    # plot(nn2)
+  }
+}
+print(best)
+end <- Sys.time()
+(time <- end - start)
+```
+
+### Best Model
+```{r}
+best_cm
+```
+
+
+# Results
+### **Best Decision Tree**: 0.6376
+### **Best SVM**: 0.9392
+### **Comparison**: Performance-wise, the best decision tree performed a lot worse than the best SVM. A benefit for the decision tree is that it trains really quickly. It took ~0.8 seconds for 1 decision tree and the tuning is very simple as well so really quick. 0.64 accuracy also isn't too bad considering there's 7 different classes. On the other hand, the SVM took ~21 seconds for 1 model to train and the looping of 250 models took almost 6 hours to run. Testing process was pretty much the same for both, and the SVM outperformed the decision tree.

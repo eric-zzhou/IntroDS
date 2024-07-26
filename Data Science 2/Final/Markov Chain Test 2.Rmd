@@ -1,0 +1,177 @@
+---
+title: "Markov Chain Test 2"
+output: html_notebook
+---
+https://sparkbyexamples.com/r-programming/r-import-text-file-as-a-string/
+https://stackoverflow.com/questions/26561518/built-in-for-getting-list-element-or-default
+https://stackoverflow.com/questions/31893844/how-can-i-save-a-list-to-a-file-and-read-it-in-again-in-r
+https://stackoverflow.com/questions/9390965/select-random-element-in-a-list-of-r
+https://stackoverflow.com/questions/58145694/convert-the-frequencies-of-a-list-elements-table-to-data-frame-in-r
+
+# Library
+```{r}
+# Hashmap library
+library(r2r)
+```
+
+# Processing Corpus
+```{r}
+txt <- paste(readLines("Shakespeare.txt"), collapse="\n")
+txt <- iconv(txt, "ASCII", "UTF-8", sub="")
+```
+
+### Test function to see dictionary
+```{r}
+print_hashmap <- function(m) {
+  for (key in keys(m)) {
+    print(paste(key, ": ", m[[key]]))
+  }
+}
+```
+
+### Testing how hashmaps work
+```{r}
+m <- hashmap(default=0)
+m[['test1']] <- 1
+m[['test2']] <- 3
+m[['test3']] <- 5
+m[['test4']] <- 7
+m[['test5']] <- 2
+print_hashmap(m)
+```
+
+### Lowercase and splitting text into words
+```{r}
+lower_str <- tolower(txt)
+split_str <- strsplit(gsub("\n", " ", lower_str), "\\s+")[[1]]
+split_str <- append(split_str, split_str[1])
+split_str <- append(split_str, split_str[2])
+split_str[0:10]
+```
+
+### Creating dictionary for markov chains
+```{r}
+shakedict <- hashmap(default = c())
+for (j in seq(length(split_str) - 2)) {
+  shakedict[[paste(split_str[j], split_str[j + 1])]] <- append(shakedict[[paste(split_str[j], split_str[j + 1])]], split_str[j + 2])
+  # print(shakedict[[paste(split_str[j], split_str[j + 1])]])
+  # print("")
+}
+```
+
+### Creating function to process corpus
+```{r}
+text_process <- function(filename, n_g) {
+  # Processing texxt
+  txt <- paste(readLines(filename), collapse="\n")
+  txt <- iconv(txt, "ASCII", "UTF-8", sub="")
+  txt <- gsub('\"', "", txt, fixed=TRUE)
+  lower_str <- tolower(txt)
+  split_str <- strsplit(gsub("\n", " ", lower_str), "\\s+")[[1]]
+  split_str <- append(split_str, split_str[1])
+  split_str <- append(split_str, split_str[2])
+  # split_str[0:10]
+  
+  # Creating a hashmap
+  dict <- hashmap(default = c())
+  for (j in seq(length(split_str) - 2)) {
+    ngram <- ""
+    for (k in seq(n_g)) {
+      ngram = paste(ngram, split_str[j + k - 1])
+    }
+    ngram <- trimws(ngram)
+    dict[[ngram]] <- append(dict[[ngram]], split_str[j + n_g])
+    # print(shakedict[[paste(split_str[j], split_str[j + 1])]])
+    # print("")
+  }
+  return(dict)
+}
+```
+
+### Processing Harry Potter
+```{r}
+hpdict <- text_process("Harry Potter 1.txt", 3)
+shakedict <- text_process("Shakespeare.txt", 2)
+```
+
+# Text Generation Function
+```{r}
+gen_text <- function(len, start_wrds, dict, n_g) {
+  og_wrds <- trimws(start_wrds)
+  start_wrds <- strsplit(tolower(start_wrds), "\\s+")[[1]]
+  check_wrds <- c()
+  for (k in seq(length(start_wrds) - n_g + 1, length(start_wrds), 1)) {
+    check_wrds <- append(check_wrds, start_wrds[k])
+  }
+  start_wrds <- ""
+  for (thing in check_wrds) {
+    start_wrds <- paste(start_wrds, thing)
+  }
+  start_wrds <- trimws(start_wrds)
+  # print(start_wrds)
+  if (is.null(dict[[start_wrds]])) {
+    return("These words do not exist in the corpus, please try something else. T_T")
+  }
+  s = ""
+  for (j in seq(len)) {
+    temp <- dict[[start_wrds]]
+    new_wrd <- temp[sample(1:length(temp), 1, replace=TRUE)]
+    s <- paste(s, new_wrd)
+    check_wrds <- check_wrds[-1]
+    check_wrds <- append(check_wrds, new_wrd)
+    start_wrds <- ""
+    for (thing in check_wrds) {
+      start_wrds <- paste(start_wrds, thing)
+    }
+    start_wrds <- trimws(start_wrds)
+  }
+  return(paste(og_wrds, trimws(s)))
+}
+```
+
+```{r}
+gen_text(100, "there to meet ", shakedict, 3)
+```
+
+```{r}
+gen_text(100, "and had to", hpdict, 3)
+```
+
+```{r}
+prob_plot <- function(start_wrds, dict, n_g) {
+  og_wrds <- trimws(start_wrds)
+  start_wrds <- strsplit(tolower(start_wrds), "\\s+")[[1]]
+  check_wrds <- c()
+  for (k in seq(length(start_wrds) - n_g + 1, length(start_wrds), 1)) {
+    check_wrds <- append(check_wrds, start_wrds[k])
+  }
+  start_wrds <- ""
+  for (thing in check_wrds) {
+    start_wrds <- paste(start_wrds, thing)
+  }
+  start_wrds <- trimws(start_wrds)
+  if (is.null(dict[[start_wrds]])) {
+    return("These words do not exist in the corpus, please try something else. T_T")
+  }
+  lst <- dict[[start_wrds]]
+  return(as.data.frame(table(lst)))
+}
+```
+
+
+```{r}
+df <- prob_plot("who do", shakedict, 2)
+print(df)
+df2 <- head(df[order(-df$Freq),], 5)
+df2$lst <- levels(df2$lst)[df2$lst]
+print(df2)
+print(df2$lst)
+barplot(
+  df2$Freq ~ df2$lst,
+  col = "turquoise",
+  xlab = "Words",
+  ylab = "Frequencies",
+  main = "Possible Following Words"
+)
+```
+

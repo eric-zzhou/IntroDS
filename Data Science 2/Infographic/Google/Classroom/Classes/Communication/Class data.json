@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "name": "Communication",
+  "section": "Merit Badge Council",
+  "calendarUrl": "https://calendar.google.com/render?cid\u003dclassroom106451186585367868531@group.calendar.google.com",
+  "courseFolder": {
+    "id": "1AwQr_O1tCcBDIeF5xIRb8R-6z_R4J-9yZc1EO2Fg2RRLwqYcKoYQZ9VKD6OfLngJaJa06iJ_",
+    "name": "Communication Merit Badge Council",
+    "openUrl": "https://drive.google.com/drive/folders/1AwQr_O1tCcBDIeF5xIRb8R-6z_R4J-9yZc1EO2Fg2RRLwqYcKoYQZ9VKD6OfLngJaJa06iJ_"
+  },
+  "photoUrl": "https://gstatic.com/classroom/themes/img_breakfast.jpg",
+  "subject": "Communication",
+  "courseState": "ACTIVE",
+  "posts": [{
+    "creator": {
+      "name": {
+        "fullName": "CAC Merit Badge Saturday"
+      }
+    },
+    "creationTime": "2021-05-20T01:41:38.338Z",
+    "updateTime": "2021-05-20T01:41:39.835Z",
+    "publicationTime": "2021-05-20T01:41:39.643Z",
+    "state": "PUBLISHED",
+    "courseWork": {
+      "title": "4. Interview someone you know fairly well, like, or respect because of his or her\nposition, talent, career, or life experiences. Listen actively to learn as much as\nyou can about the person. Then prepare and deliver to your counselor an\nintroduction of the person as though this person were to be a guest speaker,\nand include reasons why the audience would want to hear this person speak.\nShow how you would call to invite this person to speak.",
+      "maxPoints": 100.0,
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "assignedGrade": 100.0,
+        "state": "RETURNED",
+        "assignmentSubmission": {
+          "attachments": [{
+            "driveFile": {
+              "id": "1aXD2xPhJndEtvlf_s-qkbuW6aDaooqcKm3atO-HMKZ8",
+              "title": "Communications Merit Badge #4",
+              "alternateLink": "https://docs.google.com/document/d/1aXD2xPhJndEtvlf_s-qkbuW6aDaooqcKm3atO-HMKZ8/edit?usp\u003ddrive_web",
+              "thumbnailUrl": "https://lh3.google.com/9rIzwGpgJW_2pc4U9QFTXpDeyyI6lr9lZnh0kftg4-8AKJ1zFijJwfVIW8fh8WJzOIZUNNV9r3jl163ApsKlKXS1Zq6cFEM5wwA0\u003ds200"
+            }
+          }]
+        },
+        "comments": [{
+          "creator": {
+            "name": {
+              "fullName": "CAC Merit Badge Saturday"
+            }
+          },
+          "creationTime": "2021-05-27T11:20:34.916Z",
+          "updateTime": "2021-05-27T11:20:34.595Z",
+          "comment": "very nice",
+          "state": "PUBLISHED",
+          "commentVisibility": "PRIVATE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          },
+          "creationTime": "2021-05-29T05:26:35.916Z",
+          "updateTime": "2021-05-29T05:26:35.505Z",
+          "comment": "Thank you!",
+          "state": "PUBLISHED",
+          "commentVisibility": "PRIVATE"
+        }]
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "CAC Merit Badge Saturday"
+      }
+    },
+    "creationTime": "2021-05-20T01:41:21.966Z",
+    "updateTime": "2021-05-20T01:41:23.410Z",
+    "publicationTime": "2021-05-20T01:41:23.227Z",
+    "state": "PUBLISHED",
+    "courseWork": {
+      "title": "5. Attend a public meeting (city council, school board, debate) approved by your\ncounselor where several points of view are given on a single issue. Practice\nactive listening skills and take careful notes of each point of view. Prepare an\nobjective report that includes all points of view that were expressed, and share\nthis with your counselor.",
+      "maxPoints": 100.0,
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "assignedGrade": 100.0,
+        "state": "RETURNED",
+        "assignmentSubmission": {
+          "attachments": [{
+            "driveFile": {
+              "id": "1EzzmmUeltnyvnCKowh7oI8sr7bSJxlAapWW9c1duHHE",
+              "title": "Communications Merit Badge #5",
+              "alternateLink": "https://docs.google.com/document/d/1EzzmmUeltnyvnCKowh7oI8sr7bSJxlAapWW9c1duHHE/edit?usp\u003ddrive_web",
+              "thumbnailUrl": "https://lh3.google.com/RlettzHUQp7JwL9iGaLCJSEAe97-VZCpBMb4UkdeeuOO-5lNmmFxL7ZN5owERWsKZanWGWCjSNZ6O43zpONgIi_JEYVALGHVnyvL\u003ds200"
+            }
+          }]
+        }
+      }]
+    }
+  }]
+}

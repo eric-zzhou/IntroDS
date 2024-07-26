@@ -1,0 +1,368 @@
+{
+  "version": 1,
+  "name": "2020 Winter Critical and Introspective Writing Bootcamp",
+  "section": "High School",
+  "room": "Matthew Ayoob",
+  "calendarUrl": "https://calendar.google.com/render?cid\u003dclassroom100211630759441440750@group.calendar.google.com",
+  "courseFolder": {
+    "id": "0BzAmKns_nil-fmZzaHh0RXVLUi1GM2luamltSzFEblRmYUx2ZDY5cUNyWF96NHRNUGNLYXM",
+    "name": "2020 Winter Critical and Introspective Writing Bootcamp High School",
+    "openUrl": "https://drive.google.com/drive/folders/0BzAmKns_nil-fmZzaHh0RXVLUi1GM2luamltSzFEblRmYUx2ZDY5cUNyWF96NHRNUGNLYXM?resourcekey\u003d0-cyhsrzG3BVdbLFhkNsXHoA"
+  },
+  "photoUrl": "https://gstatic.com/classroom/themes/img_breakfast.jpg",
+  "subject": "Writing",
+  "courseState": "ARCHIVED",
+  "posts": [{
+    "creator": {
+      "name": {
+        "fullName": "Matthew Ayoob"
+      }
+    },
+    "creationTime": "2021-01-02T17:29:15.457Z",
+    "updateTime": "2021-01-02T17:30:31.755Z",
+    "publicationTime": "2021-01-02T17:30:31.668Z",
+    "state": "PUBLISHED",
+    "materials": [{
+      "driveFile": {
+        "driveFile": {
+          "id": "1BdlQimd6BHZdV9nEYSEFN7uEBl-YOgB9x-y87yXmJB8",
+          "title": "IWB Class 6 homework",
+          "alternateLink": "https://docs.google.com/document/d/1BdlQimd6BHZdV9nEYSEFN7uEBl-YOgB9x-y87yXmJB8/edit?usp\u003ddrive_web",
+          "thumbnailUrl": "https://lh3.google.com/mZlbkVu3sLvYixeXQd9yDEyk1t65zvZuOXvskbeCdNieozRkvWuaKTlkHh-XRoTRrnUhfwhcL69QsyEHvTr3FTwqYOFAHai0ad9g\u003ds200"
+        },
+        "shareMode": "VIEW"
+      }
+    }],
+    "courseWork": {
+      "title": "THE FINAL HOMEWORK",
+      "dueTime": "2021-01-04T01:00:00Z",
+      "maxPoints": 500.0,
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "assignedGrade": 460.0,
+        "state": "RETURNED",
+        "assignmentSubmission": {
+          "attachments": [{
+            "driveFile": {
+              "id": "1a-jp6_rkPYg2IiFr7MfnLJV0bT6jt35mlGrUxgLWeik",
+              "title": "Eric Zhou - THE FINAL HOMEWORK",
+              "alternateLink": "https://docs.google.com/document/d/1a-jp6_rkPYg2IiFr7MfnLJV0bT6jt35mlGrUxgLWeik/edit?usp\u003ddrive_web",
+              "thumbnailUrl": "https://lh3.google.com/yVcNVXG3ETRWu1kce4dQ5wRYEra29uykBw9vMJP3PNIC2kRPQyfqu3Pr86gl2gU38gC_Hsk_AAlHOvCDk2jdu9UGA4_lcO3q6U-9\u003ds200"
+            }
+          }]
+        },
+        "comments": [{
+          "creator": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          },
+          "creationTime": "2021-01-03T21:40:29.968Z",
+          "updateTime": "2021-01-03T21:40:29.770Z",
+          "comment": "I will probably submit late because I have been really busy lately. Sorry about that.",
+          "state": "PUBLISHED",
+          "commentVisibility": "PRIVATE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          },
+          "creationTime": "2021-01-04T06:36:55.597Z",
+          "updateTime": "2021-01-04T06:36:55.404Z",
+          "comment": "I submitted a very rough draft. I will probably edit it more and add some stories and imagery.",
+          "state": "PUBLISHED",
+          "commentVisibility": "PRIVATE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Matthew Ayoob"
+            }
+          },
+          "creationTime": "2021-01-04T17:25:55.755Z",
+          "updateTime": "2021-01-04T17:25:55.602Z",
+          "comment": "Great work!",
+          "state": "PUBLISHED",
+          "commentVisibility": "PRIVATE"
+        }]
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Matthew Ayoob"
+      }
+    },
+    "creationTime": "2020-12-30T18:33:43.169Z",
+    "updateTime": "2020-12-30T18:34:23.374Z",
+    "publicationTime": "2020-12-30T18:34:08.069Z",
+    "state": "PUBLISHED",
+    "courseWork": {
+      "title": "CLASS 5 HOMEWORK",
+      "description": "https://docs.google.com/document/d/1P3reGzRJpUZY6PkPy3LKDsAIEsxXYVtClgqkZ8b5D_k/edit?usp\u003dsharing contains the assignment at top. Submit here. ",
+      "dueTime": "2021-01-01T04:59:00Z",
+      "maxPoints": 200.0,
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "assignedGrade": 192.0,
+        "state": "RETURNED",
+        "assignmentSubmission": {
+          "attachments": [{
+            "driveFile": {
+              "id": "1KaHkTGKL-JYCn3zGm3eBAmi2IQyWyd7qng0HSF4prJk",
+              "title": "Writing Bootcamp Class 5 HW",
+              "alternateLink": "https://docs.google.com/document/d/1KaHkTGKL-JYCn3zGm3eBAmi2IQyWyd7qng0HSF4prJk/edit?usp\u003ddrive_web",
+              "thumbnailUrl": "https://lh3.google.com/MOeW8451_IiJMF0fQiSK9K4Bmkx2u-DU7Xep8KuQ06Os4gZeAbuXs63BbR_TjDrLLqMA3bohKTgyA0RpUNDoHStgme-hrCZG1i5k\u003ds200"
+            }
+          }]
+        },
+        "comments": [{
+          "creator": {
+            "name": {
+              "fullName": "Matthew Ayoob"
+            }
+          },
+          "creationTime": "2021-01-02T02:28:30.195Z",
+          "updateTime": "2021-01-02T02:28:30.160Z",
+          "comment": "Nice Eric! I think the message has promise, but maybe make it more about not caring what people think. Great message!",
+          "state": "PUBLISHED",
+          "commentVisibility": "PRIVATE"
+        }]
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Matthew Ayoob"
+      }
+    },
+    "creationTime": "2020-12-29T18:40:03.532Z",
+    "updateTime": "2020-12-29T18:41:05.276Z",
+    "publicationTime": "2020-12-29T18:41:05.196Z",
+    "state": "PUBLISHED",
+    "courseWork": {
+      "title": "CLASS 4 HOMEWORK",
+      "description": "https://docs.google.com/document/d/1rICDyE0JF1CCrGQi12kI1d-BWNffSetIjzB-rRzXTWk/edit?usp\u003dsharing has the assignment on the top.",
+      "dueTime": "2020-12-30T02:00:00Z",
+      "maxPoints": 25.0,
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "assignmentSubmission": {
+          "attachments": [{
+            "driveFile": {
+              "id": "1smMXLKOAe_XR8SVrv9xZc4ERQ2WsYm0j6XCy9BbllcM",
+              "title": "Writing Bootcamp Class 4 HW",
+              "alternateLink": "https://docs.google.com/document/d/1smMXLKOAe_XR8SVrv9xZc4ERQ2WsYm0j6XCy9BbllcM/edit?usp\u003ddrive_web",
+              "thumbnailUrl": "https://lh3.google.com/039YVUMnEDYwAlS1hTzlxNuP93s-WegbW_xW9GYP5kp4GPK4AcS68OipfOyt5TOy9UytIU0rPeIOjVenQQGpIIgG7-sn5uNZylcR\u003ds200"
+            }
+          }]
+        },
+        "comments": [{
+          "creator": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          },
+          "creationTime": "2021-01-01T22:29:00.617Z",
+          "updateTime": "2021-01-01T22:29:00.562Z",
+          "comment": "Sorry I forgot to click the turn in button.",
+          "state": "PUBLISHED",
+          "commentVisibility": "PRIVATE"
+        }]
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Matthew Ayoob"
+      }
+    },
+    "creationTime": "2020-12-28T18:40:21.803Z",
+    "updateTime": "2020-12-28T18:41:00.547Z",
+    "publicationTime": "2020-12-28T18:41:00.366Z",
+    "state": "PUBLISHED",
+    "courseWork": {
+      "title": "CLASS 3 HOMEWORK",
+      "description": "https://docs.google.com/document/d/1A5OzfPviCF6q9zizrj06AGj1HNnxIxjTK0HENdNx5L8/edit?usp\u003dsharing has the assignment on the top.",
+      "dueTime": "2020-12-29T02:00:00Z",
+      "maxPoints": 100.0,
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "assignedGrade": 97.0,
+        "state": "RETURNED",
+        "assignmentSubmission": {
+          "attachments": [{
+            "driveFile": {
+              "id": "1-Mm9dWGCkfKBu3CLKn8jkOpyD_YVWhUys1dpI52XcfY",
+              "title": "Writing Bootcamp Class 3 HW",
+              "alternateLink": "https://docs.google.com/document/d/1-Mm9dWGCkfKBu3CLKn8jkOpyD_YVWhUys1dpI52XcfY/edit?usp\u003ddrive_web",
+              "thumbnailUrl": "https://lh3.google.com/x6e3mm7Hjqa4ExSJIjmCqrfnKn1_46kFxjFxikQFW-xzrvqtzWSoUM1cy6NcPmcLq55S9FXCNCTeC38wRQnyce0T3h1wUopWcvDq\u003ds200"
+            }
+          }]
+        },
+        "comments": [{
+          "creator": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          },
+          "creationTime": "2020-12-29T04:19:56.457Z",
+          "updateTime": "2020-12-29T04:19:56.258Z",
+          "comment": "Sorry I submitted late, I thought the due date was 9:00 PM.",
+          "state": "PUBLISHED",
+          "commentVisibility": "PRIVATE"
+        }, {
+          "creator": {
+            "name": {
+              "fullName": "Matthew Ayoob"
+            }
+          },
+          "creationTime": "2020-12-29T17:30:10.702Z",
+          "updateTime": "2020-12-29T17:30:10.659Z",
+          "comment": "I’m a huge fan of the growth mindset BTW. Great work, Eric. For next time you to incorporate more vivid details and deeper realization about the situation.",
+          "state": "PUBLISHED",
+          "commentVisibility": "PRIVATE"
+        }]
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Matthew Ayoob"
+      }
+    },
+    "creationTime": "2020-12-23T18:49:59.621Z",
+    "updateTime": "2020-12-23T18:51:11.126Z",
+    "publicationTime": "2020-12-23T18:51:11.046Z",
+    "state": "PUBLISHED",
+    "courseWork": {
+      "title": "CLASS 2 HOMEWORK ",
+      "description": "Submit the google doc with the answers below. Link to class 2 handout: https://docs.google.com/document/d/1jRATBN9848H--HoCpJt_XXjzDGfRRXG1AnnSmDXKjo4/edit?usp\u003dsharing",
+      "dueTime": "2020-12-28T04:59:00Z",
+      "maxPoints": 100.0,
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "assignedGrade": 97.0,
+        "state": "RETURNED",
+        "assignmentSubmission": {
+          "attachments": [{
+            "driveFile": {
+              "id": "1X3f41NvyLPVtddIbeaptL73gX5lnhHy9LVAG1OZx64g",
+              "title": "Writing Bootcamp Class 2 HW",
+              "alternateLink": "https://docs.google.com/document/d/1X3f41NvyLPVtddIbeaptL73gX5lnhHy9LVAG1OZx64g/edit?usp\u003ddrive_web",
+              "thumbnailUrl": "https://lh3.google.com/sfM_2HxcqPuIVwz5HIj66fn-DHhIDIf9Ego-6TxRDLOQUyEWfStwplcp_i1tGG0PCtmBdE3vrtQHjssIJYbz3-wCjTwRo1E6Jvqf\u003ds200"
+            }
+          }]
+        },
+        "comments": [{
+          "creator": {
+            "name": {
+              "fullName": "Matthew Ayoob"
+            }
+          },
+          "creationTime": "2020-12-28T18:37:11.477Z",
+          "updateTime": "2020-12-28T18:37:11.113Z",
+          "comment": "Great work Eric. Pacing is great and love the sentence variety. Try to incorporate some em dashes and colons.",
+          "state": "PUBLISHED",
+          "commentVisibility": "PRIVATE"
+        }]
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Matthew Ayoob"
+      }
+    },
+    "creationTime": "2020-12-22T18:34:01.435Z",
+    "updateTime": "2020-12-22T18:35:25.570Z",
+    "publicationTime": "2020-12-22T18:34:57.489Z",
+    "state": "PUBLISHED",
+    "courseWork": {
+      "title": "CLASS 1 HOMEWORK",
+      "description": "Submit the google doc with the answers below. Link to class 1 handout: https://docs.google.com/document/d/1Yzrt6R_4Gj-uSncWhBpHVHQTBIwPkKH2O_0mBLI7P0A/edit?usp\u003dsharing",
+      "dueTime": "2020-12-23T04:59:00Z",
+      "maxPoints": 100.0,
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "assignedGrade": 95.0,
+        "state": "RETURNED",
+        "assignmentSubmission": {
+          "attachments": [{
+            "driveFile": {
+              "id": "1kkY4gEg0ieKYAEypg-E45KUJxNxC06tVbrTngO_Vu0E",
+              "title": "Writing Bootcamp Class 1 HW",
+              "alternateLink": "https://docs.google.com/document/d/1kkY4gEg0ieKYAEypg-E45KUJxNxC06tVbrTngO_Vu0E/edit?usp\u003ddrive_web",
+              "thumbnailUrl": "https://lh3.google.com/cT-bL5VZADvFw33V0l15C5KXgl5z5Nux8VDxxZnFQYku6azS691DmXwrPUTuTMvD3T0NmZw8O7kFSir7-N84vx_gzna3hzgsJL49\u003ds200"
+            }
+          }]
+        },
+        "comments": [{
+          "creator": {
+            "name": {
+              "fullName": "Matthew Ayoob"
+            }
+          },
+          "creationTime": "2020-12-23T18:41:04.384Z",
+          "updateTime": "2020-12-23T18:41:04.203Z",
+          "comment": "Great job Eric! For next time, work on making this essay more descriptive. I definitely saw the passion, but imagine throwing the reader into the narrative. Don\u0027t tell about yourself, show us :)!",
+          "state": "PUBLISHED",
+          "commentVisibility": "PRIVATE"
+        }]
+      }]
+    }
+  }]
+}

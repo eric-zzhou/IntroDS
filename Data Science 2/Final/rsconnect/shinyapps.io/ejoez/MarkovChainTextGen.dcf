@@ -1,0 +1,14 @@
+name: MarkovChainTextGen
+title: MarkovChainTextGen
+username:
+account: ejoez
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7645418
+bundleId: 6520600
+url: https://ejoez.shinyapps.io/MarkovChainTextGen/
+when: 1668603403.45813
+lastSyncTime: 1668603403.45813
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: DS2 Final Contract.pdf|Markov Chain Test 2.nb.html|Markov Chain Test 2.Rmd|Markov Chain Test.nb.html|Markov Chain Test.rmd

@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "name": "B20-0623 \u0026 L20-0623",
+  "section": "Tues-Wed-Thurs 10am-12:20pm",
+  "room": "ONLINE",
+  "calendarUrl": "https://calendar.google.com/render?cid\u003dclassroom117070229314076789768@group.calendar.google.com",
+  "courseFolder": {
+    "id": "0BzAmKns_nil-fmp2YkJQQklWRjMwc3BZMnMtQjQyMXJ0ZGEwS0pBYzdNNWx2b3VTTEp1N00",
+    "name": "B20-0623 Tues-Wed-Thurs 10am-12:20pm",
+    "openUrl": "https://drive.google.com/drive/folders/0BzAmKns_nil-fmp2YkJQQklWRjMwc3BZMnMtQjQyMXJ0ZGEwS0pBYzdNNWx2b3VTTEp1N00?resourcekey\u003d0-j04Q2mQjnCsYorTMzRzUBw"
+  },
+  "subject": "911 Bellevue and 911 Lynnwood Driving School",
+  "courseState": "ACTIVE",
+  "posts": [{
+    "creator": {
+      "name": {
+        "fullName": "Janelle McMillian"
+      }
+    },
+    "creationTime": "2020-07-16T17:05:22.018Z",
+    "updateTime": "2020-07-16T17:05:31.188Z",
+    "publicationTime": "2020-07-16T17:05:31.014Z",
+    "state": "PUBLISHED",
+    "materials": [{
+      "form": {
+        "formUrl": "https://drive.google.com/open?id\u003d1WIsShdcHHibsPBwquXS75wnJllynrg3MBARAIv0fFbM\u0026hr_submission\u003dChkI-NiW66sDEhAI-taJ8rUDEgcIqMWgoJYDEAE"
+      }
+    }],
+    "courseWork": {
+      "title": "code: black cat",
+      "maxPoints": 100.0,
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "assignmentSubmission": {
+        }
+      }]
+    }
+  }, {
+    "creationTime": "2020-06-29T00:34:38.610Z",
+    "updateTime": "2020-07-15T19:22:16.291Z",
+    "scheduledTime": "2020-07-15T18:00:00Z",
+    "publicationTime": "2020-07-15T18:01:00.071Z",
+    "state": "PUBLISHED",
+    "topics": [{
+      "name": "Tests"
+    }],
+    "materials": [{
+      "form": {
+        "formUrl": "https://drive.google.com/open?id\u003d1jbE1-cIYf_bgUQgxYlE81GngNLp1ErDhg2hIHHgj4iI\u0026hr_submission\u003dChkI-NiW66sDEhAIqNORm64DEgcIqMWgoJYDEAE"
+      }
+    }],
+    "courseWork": {
+      "title": "Test #4 FINAL TEST",
+      "description": "CLOSED BOOK. NO NOTES.CAMERA ON or PARENT PRIOR PARENT PROCTOR.\n\nMake sure you input your full name. \nInstructor will give you Access Code\n\n40/50 to pass\nThere is no time limit.\n\nIf you do not pass, retake the test.\nYou must pass all tests to complete the 911 Driving School Course.\n\nIf you complete the test before other students, please be patient, your instructor will give you further instructions.",
+      "dueTime": "2020-07-15T20:30:00Z",
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "assignmentSubmission": {
+        }
+      }]
+    }
+  }, {
+    "creationTime": "2020-06-29T00:33:19.889Z",
+    "updateTime": "2020-07-13T18:01:16.816Z",
+    "scheduledTime": "2020-07-13T18:00:00Z",
+    "publicationTime": "2020-07-13T18:01:16.292Z",
+    "state": "PUBLISHED",
+    "topics": [{
+      "name": "Tests"
+    }],
+    "materials": [{
+      "form": {
+        "formUrl": "https://drive.google.com/open?id\u003d1qW9d4MOKe4rLqUpi185CANNN9W3TiLeAFXlfkjDH-x8\u0026hr_submission\u003dChkI-NiW66sDEhAIj9ORm64DEgcIqMWgoJYDEAE"
+      }
+    }],
+    "courseWork": {
+      "title": "Test #3",
+      "description": "Make sure you input your full name. \nAccess Code: gold horse\n\n40/50 to pass\nThere is no time limit.\n\nIf you do not pass, retake the test.\nYou must pass all tests to complete the 911 Driving School Course.\n\nIf you complete the test before other students, please be patient, your instructor will give you further instructions.",
+      "dueTime": "2020-07-13T19:30:00Z",
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "assignmentSubmission": {
+        }
+      }]
+    }
+  }, {
+    "creationTime": "2020-06-29T00:31:19.746Z",
+    "updateTime": "2020-07-07T17:06:42.769Z",
+    "scheduledTime": "2020-07-07T17:05:00Z",
+    "publicationTime": "2020-07-07T17:06:42.411Z",
+    "state": "PUBLISHED",
+    "topics": [{
+      "name": "Tests"
+    }],
+    "materials": [{
+      "form": {
+        "formUrl": "https://drive.google.com/open?id\u003d13Q-bIqAKH4bPCooZeCaWqxOLlwy4R7Vv4IdnZ9o9Gws\u0026hr_submission\u003dChkI-NiW66sDEhAI-tKRm64DEgcIqMWgoJYDEAE"
+      }
+    }],
+    "courseWork": {
+      "title": "Test #2",
+      "description": "Make sure you input your full name. \nInstructor will give you Access Code\n\n40/50 to pass\nThere is no time limit.\n\nIf you do not pass, retake the test.\nYou must pass all tests to complete the 911 Driving School Course.\n\nIf you complete the test before other students, please be patient, your instructor will give you further instructions.",
+      "dueTime": "2020-07-07T19:30:00Z",
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "assignmentSubmission": {
+        }
+      }]
+    }
+  }, {
+    "creationTime": "2020-06-29T00:27:08.533Z",
+    "updateTime": "2020-07-01T17:04:01.632Z",
+    "scheduledTime": "2020-07-01T17:00:00Z",
+    "publicationTime": "2020-07-01T17:04:01.179Z",
+    "state": "PUBLISHED",
+    "topics": [{
+      "name": "Materials"
+    }],
+    "materials": [{
+      "form": {
+        "formUrl": "https://drive.google.com/open?id\u003d10R1t-o99YEVYDUKzobjCmgYEEk2V1-e9I3ZYlO5Odyg\u0026hr_submission\u003dChkI-NiW66sDEhAInMiRm64DEgcIqMWgoJYDEAE"
+      }
+    }],
+    "courseWork": {
+      "title": "Test #1 Access Code: brown frog\n",
+      "description": "Make sure you input your full name. \nInstructor will give you Access Code\n\n40/50 to pass\nThere is no time limit.\n\nIf you do not pass, retake the test.\nYou must pass all tests to complete the 911 Driving School Course.\n\nIf you complete the test before other students, please be patient, your instructor will give you further instructions.",
+      "dueTime": "2020-07-01T19:30:00Z",
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "TURNED_IN",
+        "assignmentSubmission": {
+        }
+      }]
+    }
+  }, {
+    "creator": {
+      "name": {
+        "fullName": "Janelle McMillian"
+      }
+    },
+    "creationTime": "2020-06-24T16:36:38.827Z",
+    "updateTime": "2020-06-24T17:08:45.157Z",
+    "scheduledTime": "2020-06-24T16:45:00Z",
+    "publicationTime": "2020-06-24T16:45:45.142Z",
+    "state": "PUBLISHED",
+    "materials": [{
+      "driveFile": {
+        "driveFile": {
+          "id": "1r8iWpZweWzUAxquY6m4pOE-OlP1LJjriRrT8HRXPH-U",
+          "alternateLink": "https://drive.google.com/open?id\u003d1r8iWpZweWzUAxquY6m4pOE-OlP1LJjriRrT8HRXPH-U"
+        },
+        "shareMode": "EDIT"
+      }
+    }],
+    "courseWork": {
+      "title": "Roll Call #1",
+      "maxPoints": 100.0,
+      "workType": "ASSIGNMENT",
+      "submissions": [{
+        "student": {
+          "profile": {
+            "name": {
+              "fullName": "Eric Zhou"
+            },
+            "emailAddress": "ericericzhouzhou@gmail.com"
+          }
+        },
+        "state": "RECLAIMED_BY_STUDENT",
+        "assignmentSubmission": {
+        }
+      }]
+    }
+  }]
+}

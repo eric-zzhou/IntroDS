@@ -1,0 +1,53 @@
+---
+title: "Forest Fires Analysis"
+output: html_notebook
+---
+
+```{r}
+suppressWarnings(library(tidyverse)) #for ggplot and dplyr
+```
+
+```{r}
+RMSEs <- c(1.327236, 1.354739, 1.359515, 0.9532846, 0.9330023, 0.8590886, 0.8080776, 0.7974177, 1.265845, 1.253608, 1.160745, 1.067298, 1.362002, 1.275997, 0.7144815)
+names <- c('D1', 'D2', 'D3', 'R1', 'R2', 'X1', 'X2', 'X3', 'N1', 'N2', 'N3', 'N4', 'S1', 'S2', 'S3')
+algos <- c('Decision Tree', 'Decision Tree', 'Decision Tree', 'Random Forest', 'Random Forest', 'XGBoost', 'XGBoost', 'XGBoost', 'Neural Net', 'Neural Net', 'Neural Net', 'Neural Net', 'Support Vector Regression', 'Support Vector Regression', 'Support Vector Regression')
+
+df <- data.frame(RMSEs = RMSEs, Models = names, Algorithms = algos)
+df <- df[order(df$RMSEs),]
+df$Models <- factor(df$Models, levels = df$Models)
+df
+```
+
+```{r}
+ggplot(df) +
+  geom_col(aes(x=Models, y = RMSEs, fill=Algorithms)) +
+  geom_text(aes(x=Models, y=RMSEs, label=RMSEs), hjust = 1.1, vjust=0.4, angle = 90) +
+  ggtitle("RMSEs for Each Model")
+```
+
+```{r}
+runtimes <- c(0.0302, 0.60291, 1.3272, 1.03924,  0.66509, 15.1185, 0.09496)
+names <- c('D', 'R1', 'R2', 'X1', 'X2', 'N', 'S')
+algos <- c('Decision Tree', 'Random Forest', 'Random Forest', 'XGBoost', 'XGBoost', 'Neural Net', 'Support Vector Regression')
+rmse2 <- c(1.327236, 0.9532846, 0.9330023, 0.8590886, 0.7974177, 1.067298, 0.7144815)
+df2 <- data.frame(Runtimes = runtimes, Models = names, Algorithms = algos, RMSEs = rmse2)
+df2 <- df2[order(df2$Runtimes),]
+df2$Models <- factor(df2$Models, levels = df2$Models)
+df2
+```
+
+```{r}
+ggplot(df2) +
+  geom_col(aes(x=Models, y = Runtimes, fill=Algorithms)) +
+  geom_text(aes(x=Models, y=Runtimes, label=Runtimes), vjust=-0.5, angle = 0) +
+  ylim(0, 16) +
+  ggtitle("Runtimes for Each Model")
+```
+
+```{r}
+ggplot(df2) +
+  geom_point(aes(x=Runtimes, y = RMSEs, color=Algorithms)) +
+  xlim(0, 1.5) +
+  ggtitle("RMSE vs Runtime")
+```
+
